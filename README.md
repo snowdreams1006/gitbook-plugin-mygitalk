@@ -1,4 +1,4 @@
-# gitbook-plugin-myGitalk
+# gitbook-plugin-mygitalk
 
 gitbook plugin using gitalk to discuss with others
 
