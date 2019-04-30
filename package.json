@@ -1,0 +1,27 @@
+{
+  "name": "gitbook-plugin-mygitalk",
+  "version": "0.0.1",
+  "description": "gitbook plugin using gitalk to discuss with others",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/snowdreams1006/gitbook-plugin-myGitalk.git"
+  },
+  "keywords": [
+    "gitbook-plugin-mygitalk",
+    "gitbook",
+    "plugin",
+    "gitalk",
+    "discuss",
+    "comment"
+  ],
+  "author": "snowdreams1006",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/snowdreams1006/gitbook-plugin-myGitalk/issues"
+  },
+  "homepage": "https://github.com/snowdreams1006/gitbook-plugin-myGitalk#readme"
+}
