@@ -10,4 +10,8 @@ if you have any quesition,please dont hesitate to [contact me](snowdreams1006@16
 
 cnpm install -g babel-core babel-loader babel-polyfill babel-preset-es2015 babel-preset-latest webpack webpack-cli
 
+cnpm i babel-core babel-loader babel-polyfill babel-preset-es2015 babel-preset-latest webpack webpack-cli --save-dev
 
+cnpm install --save-dev webpack webpack-cli 
+
+cnpm install --save-dev babel-core babel-loader babel-polyfill babel-preset-es2015 babel-preset-latest webpack webpack-cli
