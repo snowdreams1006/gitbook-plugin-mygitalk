@@ -49,8 +49,6 @@ Current version is {{ softwareVersion }}.
   this will {{ not be processed }}
 {% endraw %}
 
-{% include "../../README.md" %}
-
 
 remote: Repository not found.
 fatal: repository 'https://github.com/snowdreams1006/snowdreams1006.git/' not found
