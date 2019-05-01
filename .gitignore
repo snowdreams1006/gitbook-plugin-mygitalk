@@ -60,10 +60,13 @@ typings/
 # next.js build output
 .next
 
+## Dependency directory
+docs/node_modules
+
 # Book build output
-_book
+docs/_book
 
 # eBook build output
-*.epub
-*.mobi
-*.pdf
+docs/*.epub
+docs/*.mobi
+docs/*.pdf
