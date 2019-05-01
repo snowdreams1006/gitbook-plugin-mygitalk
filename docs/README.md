@@ -8,4 +8,6 @@ please visit [https://snowdreams1006.github.io](https://snowdreams1006.github.io
 
 if you have any quesition,please dont hesitate to [contact me](snowdreams1006@163.com)
 
+npm install -g babel-core babel-loader babel-polyfill babel-preset-es2015 babel-preset-latest webpack webpack-cli --save-dev
+
 
