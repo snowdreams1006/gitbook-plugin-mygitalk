@@ -73,4 +73,3 @@ git+https://github.com/snowdreams1006/snowdreams1006.github.io/git/base/about.md
 git+https://snowdreams1006@github.com/snowdreams1006/snowdreams1006.github.io.git/README.md
 
 git+https://user@hostname/owner/project.git/file#commit-ish
-

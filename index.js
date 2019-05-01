@@ -18,6 +18,10 @@ module.exports = {
 	        return page;
 	    }
 	},
-	blocks: {},
-	filters: {}
+	blocks: {
+
+	},
+	filters: {
+		
+	}
 };
