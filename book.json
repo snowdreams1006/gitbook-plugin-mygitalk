@@ -1,0 +1,26 @@
+{
+  "title": "gitbook-plugin-mygitalk",
+  "author": "snowdreams1006",
+  "description": "gitbook plugin using gitalk to discuss with others",
+  "language": "zh-hans",
+  "gitbook": "3.2.3",
+  "links": {
+      "sidebar": {
+          "我的博客": "https://snowdreams1006.github.io/"
+      }
+  },
+  "plugins": [
+    "github",
+    "edit-link"
+  ],
+  "pluginsConfig": {
+    "github": {
+      "url": "https://github.com/snowdreams1006/gitbook-plugin-mygitalk"
+    },
+    "edit-link": {
+      "base": "https://github.com/snowdreams1006/gitbook-plugin-mygitalk/blob/master",
+      "label": "编辑本页"
+    },
+    "output": "_book"
+  }
+}
