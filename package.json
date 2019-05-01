@@ -4,7 +4,7 @@
   "description": "gitbook plugin using gitalk to discuss with others",
   "main": "index.js",
   "engines": {
-    "gitbook": ">2.0.0"
+    "gitbook": ">=2.4.3"
   },
   "gitbook": {
     "properties": {
@@ -20,7 +20,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/snowdreams1006/gitbook-plugin-myGitalk.git"
+    "url": "git+https://github.com/snowdreams1006/gitbook-plugin-mygitalk.git"
   },
   "keywords": [
     "gitbook-plugin-mygitalk",
@@ -30,7 +30,10 @@
     "discuss",
     "comment"
   ],
-  "author": "snowdreams1006",
+  "author": {
+    "name": "snowdreams1006",
+    "email": "snowdreams1006@163.com"
+  },
   "license": "Apache-2.0",
   "bugs": {
     "url": "https://github.com/snowdreams1006/gitbook-plugin-myGitalk/issues"
