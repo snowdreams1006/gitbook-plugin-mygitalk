@@ -51,10 +51,26 @@ Current version is {{ softwareVersion }}.
 
 {% include "../../README.md" %}
 
-https://github.com/snowdreams1006/snowdreams1006.github.io/blob/master/git/base/about.md
 
-{% include "git+https://github.com/snowdreams1006/snowdreams1006.github.io/blob/master/git/base/about.md" %}
+remote: Repository not found.
+fatal: repository 'https://github.com/snowdreams1006/snowdreams1006.git/' not found
 
+remote: Repository not found.
+fatal: repository 'https://snowdreams1006@github.com/snowdreams1006/snowdreams1006.git/' not found
+
+https://github.com/snowdreams1006/snowdreams1006.github.io.git
+
+remote: Repository not found.
+fatal: repository 'https://github.com/snowdreams1006/snowdreams1006.git/' not found
+
+
+
+
+
+
+git+https://github.com/snowdreams1006/snowdreams1006.github.io/git/base/about.md
+
+git+https://snowdreams1006@github.com/snowdreams1006/snowdreams1006.github.io.git/README.md
 
 git+https://user@hostname/owner/project.git/file#commit-ish
 

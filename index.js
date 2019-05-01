@@ -1,10 +1,16 @@
 module.exports = {
-    // Map of hooks
-    hooks: {},
-
-    // Map of new blocks
-    blocks: {},
-
-    // Map of new filters
-    filters: {}
+    hooks: {
+	    'page:before': function(page) {
+	      page.content = "# 你好 Title\n" +page.content;
+	      return page;
+	    }，
+	    "page": function(page) {
+        	page.content = page.content
+        		.replace("<b>", "<strong>")
+	            .replace("</b>", "</strong>");
+	        return page;
+	    }
+	},
+	blocks: {},
+	filters: {}
 };
