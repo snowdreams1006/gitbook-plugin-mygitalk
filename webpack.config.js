@@ -1,8 +1,8 @@
 module.exports = {
     entry: './src/index.js',
     output: {
-        path: __dirname,
-        filename: './dist/mygitalk.min.js'
+        path: "./dist",
+        filename: 'mygitalk.min.js'
     },
     module: {
         rules: [{

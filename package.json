@@ -2,7 +2,7 @@
   "name": "gitbook-plugin-mygitalk",
   "version": "0.0.5",
   "description": "gitbook plugin using gitalk to discuss with others",
-  "main": "index.js",
+  "main": "./dist/mygitalk.min.js",
   "engines": {
     "gitbook": ">=2.4.3"
   },
@@ -17,7 +17,8 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "release": "webpack"
+    "release": "webpack",
+    "example": "http-server -p 8080"
   },
   "repository": {
     "type": "git",
