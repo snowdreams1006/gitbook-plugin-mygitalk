@@ -1,6 +1,6 @@
 {
   "name": "gitbook-plugin-mygitalk",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "gitbook plugin using gitalk to discuss with others",
   "main": "index.js",
   "scripts": {
