@@ -6,7 +6,7 @@
   "gitbook": "3.2.3",
   "links": {
       "sidebar": {
-          "我的博客": "https://snowdreams1006.github.io/"
+          "snowdreams1006": "https://snowdreams1006.github.io/"
       }
   },
   "plugins": [
@@ -19,7 +19,7 @@
     },
     "edit-link": {
       "base": "https://github.com/snowdreams1006/gitbook-plugin-mygitalk/blob/master",
-      "label": "编辑本页"
+      "label": "edit this page"
     }
   }
 }
