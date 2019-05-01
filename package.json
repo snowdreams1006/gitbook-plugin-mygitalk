@@ -3,6 +3,18 @@
   "version": "0.0.4",
   "description": "gitbook plugin using gitalk to discuss with others",
   "main": "index.js",
+  "engines": {
+    "gitbook": ">2.0.0"
+  },
+  "gitbook": {
+    "properties": {
+        "myConfigKey": {
+          "type": "string",
+          "default": "it's the default value",
+          "description": "It defines my awesome config!"
+        }
+    }
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

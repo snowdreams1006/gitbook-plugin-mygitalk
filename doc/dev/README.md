@@ -2,11 +2,11 @@
 
 ## 有趣的模板变量
 
-我的名字是{{ name }}，很高兴见到你
+我的名字是{{name}}，很高兴见到你
 
 - 多语言书的当前语言
 
-{{ book.language }}
+{{book.language}}
 
 - 当前时间
 
@@ -39,3 +39,22 @@
 - 词汇表的路径
 
 {{glossary.path}}
+
+{% set softwareVersion = "1.0.0" %}
+
+Current version is {{ softwareVersion }}.
+[Download it](website.com/download/{{ softwareVersion }})
+
+{% raw %}
+  this will {{ not be processed }}
+{% endraw %}
+
+{% include "../../README.md" %}
+
+https://github.com/snowdreams1006/snowdreams1006.github.io/blob/master/git/base/about.md
+
+{% include "git+https://github.com/snowdreams1006/snowdreams1006.github.io/blob/master/git/base/about.md" %}
+
+
+git+https://user@hostname/owner/project.git/file#commit-ish
+
