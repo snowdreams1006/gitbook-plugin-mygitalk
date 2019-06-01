@@ -7,10 +7,34 @@
   },
   "gitbook": {
     "properties": {
-      "myConfigKey": {
+      "clientID": {
         "type": "string",
-        "default": "it's the default value",
-        "description": "It defines my awesome config!"
+        "required": true,
+        "description": "GitHub Application Client ID."
+      },
+      "clientSecret": {
+        "type": "string",
+        "required": true,
+        "description": "GitHub Application Client Secret."
+      },
+      "repo": {
+        "type": "string",
+        "required": true,
+        "description": "GitHub repository."
+      },
+      "owner": {
+        "type": "string",
+        "required": true,
+        "description": "GitHub repository owner. Can be personal user or organization."
+      },
+      "admin": {
+        "type": "array",
+        "required": true,
+        "description": "GitHub repository owner and collaborators. (Users who having write access to this repository)."
+      },
+      "id": {
+        "type": "string",
+        "description": "location.href.The unique id of the page. Length must less than 50."
       }
     }
   },
