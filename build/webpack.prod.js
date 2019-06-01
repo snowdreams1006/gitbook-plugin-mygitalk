@@ -1,8 +1,8 @@
 const path = require("path");
 const webpack = require("webpack");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
-const merge = require('webpack-merge');
-const UglifyJSPlugin = require('uglifyjs-webpack-plugin');
+const merge = require("webpack-merge");
+const UglifyJSPlugin = require("uglifyjs-webpack-plugin");
 
 const webpackCommonConf = require("./webpack.common.js");
 const srcPath = path.join(__dirname, "..", "src");
