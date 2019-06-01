@@ -1,7 +1,7 @@
 {
   "name": "gitbook-plugin-mygitalk",
-  "version": "0.0.6",
-  "description": "gitbook plugin using gitalk to discuss with others",
+  "version": "0.0.7",
+  "description": "use gitalk to discuss with others",
   "engines": {
     "gitbook": ">=2.4.3"
   },
