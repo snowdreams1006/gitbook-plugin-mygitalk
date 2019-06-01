@@ -10,8 +10,8 @@ module.exports = {
     plugins: [
         new CleanWebpackPlugin(),
         new HtmlWebpackPlugin({
-            title: "gitbook-plugin-mygitalk",
-            filename: "gitbook-plugin-mygitalk.html"
+            title: "mygitalk-test",
+            filename: "mygitalk-test.html"
         })
     ],
     module: {
@@ -24,14 +24,14 @@ module.exports = {
             {
                 test: /\.css$/,
                 use: [
-                    'style-loader',
-                    'css-loader'
+                    "style-loader",
+                    "css-loader"
                 ]
             }
         ]
     },
     output: {
-        filename: "gitbook-plugin-mygitalk.js",
+        filename: "mygitalk-test.js",
         path: distPath
     }
 };
