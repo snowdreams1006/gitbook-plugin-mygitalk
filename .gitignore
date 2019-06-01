@@ -70,3 +70,14 @@ docs/_book
 docs/*.epub
 docs/*.mobi
 docs/*.pdf
+
+## Dependency directory
+example/node_modules
+
+# Book build output
+example/_book
+
+# eBook build output
+example/*.epub
+example/*.mobi
+example/*.pdf

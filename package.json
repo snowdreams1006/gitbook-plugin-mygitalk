@@ -49,11 +49,16 @@
   },
   "keywords": [
     "gitbook-plugin-mygitalk",
-    "gitbook",
-    "plugin",
+    "mygitalk",
     "gitalk",
     "discuss",
-    "comment"
+    "gitment",
+    "vssue",
+    "comment",
+    "github",
+    "issues",
+    "gitbook",
+    "plugin"
   ],
   "author": {
     "name": "snowdreams1006",

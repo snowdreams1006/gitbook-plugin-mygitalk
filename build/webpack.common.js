@@ -10,7 +10,7 @@ module.exports = {
     plugins: [
         new CleanWebpackPlugin(),
         new HtmlWebpackPlugin({
-            title: "测试输出页面",
+            title: "test-mygitalk",
             filename: "index.html"
         })
     ],
