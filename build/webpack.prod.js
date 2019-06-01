@@ -12,9 +12,6 @@ module.exports = merge(webpackCommonConf, {
     mode: "production",
     devtool: "source-map",
     plugins: [
-        new webpack.DefinePlugin({
-            "process.env.NODE_ENV": JSON.stringify("production")
-        }),
         new webpack.BannerPlugin('powered by https://github.com/snowdreams1006 \r'),
         new UglifyJSPlugin({
             sourceMap: true

@@ -13,14 +13,11 @@ module.exports = merge(webpackCommonConf, {
         port: 3000,
         progress: true,
         contentBase: distPath,
-        open: true,
-        compress: true,
+        open: false,
+        compress: false,
         hot: true
     },
     plugins: [
-        new webpack.DefinePlugin({
-            "process.env.NODE_ENV": JSON.stringify("development")
-        }),
         new webpack.NamedModulesPlugin(),
         new webpack.HotModuleReplacementPlugin()
     ]
