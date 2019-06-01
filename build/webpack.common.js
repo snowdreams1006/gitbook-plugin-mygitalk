@@ -10,8 +10,8 @@ module.exports = {
     plugins: [
         new CleanWebpackPlugin(),
         new HtmlWebpackPlugin({
-            title: "test-mygitalk",
-            filename: "index.html"
+            title: "gitbook-plugin-mygitalk",
+            filename: "gitbook-plugin-mygitalk.html"
         })
     ],
     module: {
@@ -31,7 +31,7 @@ module.exports = {
         ]
     },
     output: {
-        filename: "bundle.js",
+        filename: "gitbook-plugin-mygitalk.js",
         path: distPath
     }
 };
