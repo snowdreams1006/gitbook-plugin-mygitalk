@@ -1,27 +1,23 @@
-module.exports = {
-    hooks: {
-    	"init": function() {
-	        console.log("在解析书之后,生成输出页面之前调用: init");
-	    },
-	    "finish：before": function() {
-	        console.log("在生成输出页面后调用,在复制资源,生成封面之前调用: finish：before");
-	    },
-	    "finish": function() {
-	        console.log("所有操作完成后调用: finish");
-	    },
-	    "page:before": function(page) {
-	    	console.log("在页上运行模板引擎之前调用: page:before");
-	      	return page;
-	    }，
-	    "page": function(page) {
-	    	console.log("在输出和索引页面之前调用: page");
-	        return page;
-	    }
-	},
-	blocks: {
+import 'gitalk/dist/gitalk.css';
+import Gitalk from 'gitalk';
 
-	},
-	filters: {
-		
-	}
-};
+function component() {
+    var element = document.createElement('div');
+
+    element.id = "gitalk-container";
+
+    return element;
+}
+
+document.body.appendChild(component());
+
+const gitalk = new Gitalk({
+    "clientID": "3f62415a283d19cbd696",
+    "clientSecret": "aed0e1db0620bf5d0e3a3f0225f801997ad74e58",
+    "repo": "snowdreams1006.github.io",
+    "owner": "snowdreams1006",
+    "admin": ["snowdreams1006"],
+    "id": window.location.pathname,
+    "distractionFreeMode": false
+});
+gitalk.render("gitalk-container");
