@@ -1,2 +1,0 @@
-# learn more about mygitalk
-

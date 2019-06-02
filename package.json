@@ -1,8 +1,8 @@
 {
   "name": "gitbook-plugin-mygitalk",
   "main": "index.js",
-  "version": "0.1.3",
-  "description": "use gitalk to discuss with others",
+  "version": "0.1.4",
+  "description": "mygitalk is a gitbook comment plugin based on gitalk",
   "engines": {
     "gitbook": ">=2.4.3"
   },
@@ -103,14 +103,12 @@
     "gitbook-plugin-mygitalk",
     "mygitalk",
     "gitalk",
-    "discuss",
     "gitment",
-    "vssue",
+    "discuss",
     "comment",
-    "github",
     "issues",
-    "gitbook",
-    "plugin"
+    "github",
+    "gitbook"
   ],
   "author": {
     "name": "snowdreams1006",

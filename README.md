@@ -78,7 +78,7 @@ If you feel this plugin is helpful, feel free to `star` [gitbook-plugin-mygitalk
 
 The [gitbook-plugin-mygitalk](https://github.com/snowdreams1006/gitbook-plugin-mygitalk) project has been integrated with the plugin itself or you can refer to the [sample project](https://github.com/snowdreams1006/gitbook-plugin-mygitalk/tree/master/example).
 
-## Help
+## Feedback
 
 I am very happy to help out with your books or any other questions you might have. 
 
@@ -97,11 +97,3 @@ You can email [me](mailto:snowdreams1006@163.com) or [new issue](https://github.
 [gitbook-version-url]: https://www.npmjs.com/package/gitbook
 [taonpm-vulnerabilities-image]: https://snyk.io.cnpmjs.org/test/npm/gitbook-plugin-mygitalk/badge.svg
 [taonpm-vulnerabilities-url]: https://snyk.io.cnpmjs.org/test/npm/gitbook-plugin-mygitalk
-
-
-
-
-
-
-
-
