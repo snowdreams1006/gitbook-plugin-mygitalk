@@ -4,9 +4,11 @@ module.exports = {
   book: {
     assets: "./assets",
     css: [
+      "https://unpkg.com/gitalk/dist/gitalk.css",
       "mygitalk.css"
     ],
     js: [
+      "https://unpkg.com/gitalk/dist/gitalk.min.js",
       "mygitalk.js"
     ]
   },
