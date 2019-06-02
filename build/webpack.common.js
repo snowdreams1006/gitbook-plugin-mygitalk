@@ -30,7 +30,7 @@ module.exports = {
         ]
     },
     output: {
-        filename: "gitbook-plugin-mygitalk.js",
+        filename: "mygitalk.js",
         path: distPath
     }
 };
