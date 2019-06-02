@@ -1,11 +1,19 @@
 require(["gitbook"], function(gitbook) {
   gitbook.events.bind("start", function(e, config) {
-    const gitalk = new Gitalk(config.mygitalk);
-    gitalk.render("gitalk-container");
-  });
+    if (config.mygitalk) {
+      // 初始化 gitalk
+      const gitalk = new Gitalk(config.mygitalk);
+      gitalk.render("gitalk-container");
 
-  gitbook.events.bind("page.change", function() {
-    const gitalk = new Gitalk(config.mygitalk);
-    gitalk.render("gitalk-container");
+      // 添加刷新按钮
+      gitbook.toolbar.createButton({
+        icon: "fa fa-refresh",
+        label: "mygitalk",
+        position: "right",
+        onClick: function() {
+          window.location.reload(true);
+        }
+      });
+    }
   });
 });
