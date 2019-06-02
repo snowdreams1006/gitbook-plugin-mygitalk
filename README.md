@@ -14,25 +14,16 @@ If you want to know the story behind `mygitalk`, please visit [gitbook-plugin-my
 
 ## Features
 
-- Authentication with github account
-- Serverless, all comments will be stored as github issues
-- Both personal and organization github projects can be used to store comments 
-- Localization, support multiple languages [en, zh-CN, zh-TW, es-ES, fr, ru]
-- Facebook-like distraction free mode (Can be enabled via the `distractionFreeMode` option)
-- Hotkey submit comment (cmd|ctrl + enter)
-
-[中文说明](https://github.com/gitalk/gitalk/blob/master/readme-cn.md)
-[Demo](https://gitalk.github.io)
+- Authentication with github account.
+- Serverless, all comments will be stored as github issues.
+- Both personal and organization github projects can be used to store comments. 
+- Localization, support multiple languages [en, zh-CN, zh-TW, es-ES, fr, ru].
+- Facebook-like distraction free mode (Can be enabled via the `distractionFreeMode` option).
+- Hotkey submit comment (cmd|ctrl + enter).
 
 ## Install
 
-You can install this plugin via npm:
-
-```bash
-$ npm install gitbook-plugin-mygitalk
-```
-
-Be sure to activate the option from the `book.json` file:
+Add this plugin to the `book.json` configuration file.
 
 ```json
 {
@@ -40,15 +31,20 @@ Be sure to activate the option from the `book.json` file:
 }
 ```
 
-Then run `gitbook install` followed by either `gitbook serve` or `gitbook build`
+Install this plugin via `npm` or `gitbook` .
 
-## Usage
+```bash
+$ npm install gitbook-plugin-mygitalk
+```
 
-Add it to your `book.json` with a basic configuration:
+```bash
+$ gitbook install
+```
+
+Add it to your `book.json` with a basic configuration
 
 ```json
 {
-  "plugins": [ "mygitalk" ],
   "pluginsConfig": {
     "mygitalk": {
         "clientID": "GitHub Application Client ID",
@@ -61,6 +57,8 @@ Add it to your `book.json` with a basic configuration:
   }
 }
 ```
+
+Run `gitbook build` or `gitbook serve` to test this plugin.
 
 ## Options
 
