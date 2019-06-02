@@ -211,6 +211,15 @@ This software is released under the MIT License, see LICENSE.txt.
 [taonpm-version-image]: https://npm.taobao.org/badge/v/gitbook-plugin-mygitalk.svg
 [taonpm-version-url]: https://npm.taobao.org/package/gitbook-plugin-mygitalk
 
+[taonpm-downloads-image]: https://npm.taobao.org/badge/d/gitbook-plugin-mygitalk.svg
+
+[gitbook-version-image]: https://badgen.net/badge/gitbook/>=2.4.3/blue
+
+[taonpm-vulnerabilities-image]: https://snyk.io.cnpmjs.org/test/npm/gitbook-plugin-mygitalk/badge.svg
+[taonpm-vulnerabilities-url]: https://snyk.io.cnpmjs.org/test/npm/gitbook-plugin-mygitalk
+
+
+
 
 
 
