@@ -1,6 +1,17 @@
 # gitbook-plugin-mygitalk
 
-[![NPM][npm-version-image]][npm-version-url] [![CDNJS][cdnjs-version-image]][cdnjs-version-url] [![david-dm][david-dm-image]][david-dm-url] [![travis][travis-image]][travis-url] [![coveralls][coveralls-image]][coveralls-url] [![gzip][gzip-size]][gzip-url]
+[![NPM][npm-version-image]][npm-version-url] 
+[![CNPM][taonpm-version-image]][taonpm-version-url]
+
+[![CDNJS][cdnjs-version-image]][cdnjs-version-url] 
+
+[![david-dm][david-dm-image]][david-dm-url] 
+
+[![travis][travis-image]][travis-url] 
+
+[![coveralls][coveralls-image]][coveralls-url] 
+
+[![gzip][gzip-size]][gzip-url]
 
 Gitalk is a modern comment component based on GitHub Issue and Preact.
 
@@ -205,8 +216,12 @@ This software is released under the MIT License, see LICENSE.txt.
 `https://github.com/snowdreams1006/gitbook-plugin-mygitalk` is licensed under MIT License
 
 
-[npm-version-image]: https://img.shields.io/npm/v/gitalk.svg?style=flat-square
-[npm-version-url]: https://www.npmjs.com/package/gitalk
+[npm-version-image]: https://img.shields.io/npm/v/gitbook-plugin-mygitalk.svg?style=flat-square
+[npm-version-url]: https://www.npmjs.com/package/gitbook-plugin-mygitalk
+
+[taonpm-version-image]: https://npm.taobao.org/badge/v/gitbook-plugin-mygitalk.svg
+[taonpm-version-url]: https://npm.taobao.org/package/gitbook-plugin-mygitalk
+
 [cdnjs-version-image]: https://img.shields.io/cdnjs/v/gitalk.svg?style=flat-square
 [cdnjs-version-url]: https://cdnjs.com/libraries/gitalk
 [david-dm-image]: https://david-dm.org/gitalk/gitalk.svg?style=flat-square
