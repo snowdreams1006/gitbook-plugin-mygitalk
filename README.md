@@ -12,19 +12,6 @@ If you want to know the story behind `mygitalk`, please visit [gitbook-plugin-my
 
 ![mygitalk-use-preview.png](./docs/images/mygitalk-use-preview.png)
 
-## Features
-
-- Authentication with github account.
-- Serverless, all comments will be stored as github issues.
-- Both personal and organization github projects can be used to store comments. 
-- Localization, support multiple languages [en, zh-CN, zh-TW, es-ES, fr, ru].
-- Facebook-like distraction free mode (Can be enabled via the `distractionFreeMode` option).
-- Hotkey submit comment (cmd|ctrl + enter).
-
-## Example
-
-The [gitbook-plugin-mygitalk](https://github.com/snowdreams1006/gitbook-plugin-mygitalk) project has been integrated with the plugin itself or you can refer to the [sample project](https://github.com/snowdreams1006/gitbook-plugin-mygitalk/tree/master/example).
-
 ## Install
 
 Add this plugin to the `book.json` configuration file.
@@ -63,6 +50,10 @@ Add it to your `book.json` with a basic configuration
 ```
 
 Run `gitbook build` or `gitbook serve` to test this plugin.
+
+## Example
+
+The [gitbook-plugin-mygitalk](https://github.com/snowdreams1006/gitbook-plugin-mygitalk) project has been integrated with the plugin itself or you can refer to the [sample project](https://github.com/snowdreams1006/gitbook-plugin-mygitalk/tree/master/example).
 
 ## Usage
 
