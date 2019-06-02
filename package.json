@@ -1,7 +1,7 @@
 {
   "name": "gitbook-plugin-mygitalk",
   "main": "index.js",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "use gitalk to discuss with others",
   "engines": {
     "gitbook": ">=2.4.3"
@@ -35,7 +35,6 @@
       },
       "id": {
         "type": "string",
-        "default": "location.href",
         "description": "location.href.The unique id of the page. Length must less than 50."
       },
       "number": {
@@ -50,17 +49,14 @@
       },
       "title": {
         "type": "string",
-        "default": "document.title",
         "description": "GitHub issue title."
       },
       "body": {
         "type": "string",
-        "default": "location.href + header.meta[description]",
         "description": "GitHub issue body."
       },
       "language": {
         "type": "string",
-        "default": "navigator.language || navigator.userLanguage",
         "description": "Localization language key, en, zh-CN and zh-TW are currently available."
       },
       "perPage": {
