@@ -1,10 +1,6 @@
 # gitbook-plugin-mygitalk
 
-[![npm][npm-version-image]][npm-version-url] 
-[![cnpm][taonpm-version-image]][taonpm-version-url]
-[![cnpm-downloads][taonpm-downloads-image]][taonpm-version-url]
-[![gitbook-version][gitbook-version-image]][gitbook-version-url]
-[![taonpm-vulnerabilities][taonpm-vulnerabilities-image]][taonpm-vulnerabilities-url]
+[![npm][npm-version-image]][npm-version-url] [![cnpm][taonpm-version-image]][taonpm-version-url] [![cnpm-downloads][taonpm-downloads-image]][taonpm-version-url] [![gitbook-version][gitbook-version-image]][gitbook-version-url] [![taonpm-vulnerabilities][taonpm-vulnerabilities-image]][taonpm-vulnerabilities-url]
 
 `Mygitalk` is a **gitbook comment plugin** based on `gitalk`.
 
@@ -12,7 +8,9 @@ If you want to know the story behind `mygitalk`, please visit [gitbook-plugin-my
 
 ![mygitalk-use-preview.png](./docs/images/mygitalk-use-preview.png)
 
-## Install
+## Usage
+
+- Install this plugin via `npm` or `gitbook` .
 
 Add this plugin to the `book.json` configuration file.
 
@@ -32,6 +30,8 @@ $ npm install gitbook-plugin-mygitalk
 $ gitbook install
 ```
 
+- Configure this plugin by applying for `github` authentication.
+
 Add it to your `book.json` with a basic configuration
 
 ```json
@@ -49,19 +49,16 @@ Add it to your `book.json` with a basic configuration
 }
 ```
 
+- Run `gitbook build` or `gitbook serve` to verify this plugin is in effect.
+
 Run `gitbook build` or `gitbook serve` to test this plugin.
+
+- Publish to the production environment to implement the comment function really.
+- If you feel this plugin is good, feel free to `star` it.
 
 ## Example
 
 The [gitbook-plugin-mygitalk](https://github.com/snowdreams1006/gitbook-plugin-mygitalk) project has been integrated with the plugin itself or you can refer to the [sample project](https://github.com/snowdreams1006/gitbook-plugin-mygitalk/tree/master/example).
-
-## Usage
-
-- Install this plugin via `npm` or `gitbook` .
-- Configure this plugin by applying for `github` authentication.
-- Run `gitbook build` or `gitbook serve` to verify this plugin is in effect.
-- Publish to the production environment to implement the comment function really.
-- If you feel this plugin is good, feel free to `star` it.
 
 ## Help
 
