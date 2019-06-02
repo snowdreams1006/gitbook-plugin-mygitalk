@@ -8,7 +8,21 @@ if you have any quesition,please dont hesitate to [contact me](snowdreams1006@16
 
 ## Install
 
-> npm install --save gitbook-plugin-mygitalk
+You can install this plugin via npm:
+
+```bash
+$ npm install gitbook-plugin-mygitalk
+```
+
+Be sure to activate the option from the `book.json` file:
+
+```json
+{
+    "plugins" : ["mygitalk"]
+}
+```
+
+Then run `gitbook install` followed by either `gitbook serve` or `gitbook build`
 
 ## Usage
 
@@ -29,3 +43,9 @@ Add it to your `book.json` with a basic configuration:
   }
 }
 ```
+
+## License
+
+`https://github.com/snowdreams1006/gitbook-plugin-mygitalk` is licensed under MIT License
+
+

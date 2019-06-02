@@ -95,10 +95,6 @@
       }
     }
   },
-  "scripts": {
-    "dev": "webpack-dev-server --config build/webpack.dev.js",
-    "build": "webpack --config build/webpack.prod.js --progress --colors"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/snowdreams1006/gitbook-plugin-mygitalk.git"
