@@ -1,8 +1,13 @@
 require(["gitbook"], function(gitbook) {
   gitbook.events.bind("start", function(e, config) {
-    if (config.mygitalk) {
+    // gitalk 默认配置
+    const mygitalk = config.mygitalk;
+    
+    if (mygitalk) {
       // 初始化 gitalk
-      const gitalk = new Gitalk(config.mygitalk);
+      mygitalk.id = window.location.pathname;
+
+      const gitalk = new Gitalk(mygitalk);
       gitalk.render("gitalk-container");
 
       // 添加刷新按钮
