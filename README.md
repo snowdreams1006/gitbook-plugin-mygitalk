@@ -6,13 +6,11 @@
 [![gitbook-version][gitbook-version-image]][gitbook-version-url]
 [![taonpm-vulnerabilities][taonpm-vulnerabilities-image]][taonpm-vulnerabilities-url]
 
-Gitalk is a modern comment component based on GitHub Issue and Preact.
+`Mygitalk` is a **gitbook comment plugin** based on `gitalk`.
 
-gitbook plugin using gitalk to discuss with others.
+If you want to know the story behind `mygitalk`, please visit [gitbook-plugin-mygitalk](https://snowdreams1006.github.io/gitbook-plugin-mygitalk/).
 
-please visit [https://snowdreams1006.github.io](https://snowdreams1006.github.io) to learn more knowledge.
-
-if you have any quesition,please dont hesitate to [contact me](snowdreams1006@163.com)
+![mygitalk-use-preview.png](./docs/images/mygitalk-use-preview.png)
 
 ## Features
 
@@ -206,7 +204,8 @@ This software is released under the MIT License, see LICENSE.txt.
 
 ## License
 
-`https://github.com/snowdreams1006/gitbook-plugin-mygitalk` is licensed under MIT License
+`gitbook-plugin-mygitalk` is licensed under `Apache-2.0` License
+
 
 [npm-version-image]: https://img.shields.io/npm/v/gitbook-plugin-mygitalk.svg?style=flat-square
 [npm-version-url]: https://www.npmjs.com/package/gitbook-plugin-mygitalk
