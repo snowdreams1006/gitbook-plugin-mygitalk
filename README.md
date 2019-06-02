@@ -3,16 +3,6 @@
 [![NPM][npm-version-image]][npm-version-url] 
 [![CNPM][taonpm-version-image]][taonpm-version-url]
 
-[![CDNJS][cdnjs-version-image]][cdnjs-version-url] 
-
-[![david-dm][david-dm-image]][david-dm-url] 
-
-[![travis][travis-image]][travis-url] 
-
-[![coveralls][coveralls-image]][coveralls-url] 
-
-[![gzip][gzip-size]][gzip-url]
-
 Gitalk is a modern comment component based on GitHub Issue and Preact.
 
 gitbook plugin using gitalk to discuss with others.
@@ -218,19 +208,13 @@ This software is released under the MIT License, see LICENSE.txt.
 
 [npm-version-image]: https://img.shields.io/npm/v/gitbook-plugin-mygitalk.svg?style=flat-square
 [npm-version-url]: https://www.npmjs.com/package/gitbook-plugin-mygitalk
-
 [taonpm-version-image]: https://npm.taobao.org/badge/v/gitbook-plugin-mygitalk.svg
 [taonpm-version-url]: https://npm.taobao.org/package/gitbook-plugin-mygitalk
 
-[cdnjs-version-image]: https://img.shields.io/cdnjs/v/gitalk.svg?style=flat-square
-[cdnjs-version-url]: https://cdnjs.com/libraries/gitalk
-[david-dm-image]: https://david-dm.org/gitalk/gitalk.svg?style=flat-square
-[david-dm-url]: https://david-dm.org/gitalk/gitalk
-[travis-image]: https://img.shields.io/travis/gitalk/gitalk/master.svg?style=flat-square
-[travis-url]: https://travis-ci.org/gitalk/gitalk
-[coveralls-image]: https://img.shields.io/coveralls/gitalk/gitalk/master.svg?style=flat-square
-[coveralls-url]: https://coveralls.io/github/gitalk/gitalk
-[gzip-size]: http://img.badgesize.io/https://unpkg.com/gitalk/dist/gitalk.min.js?compression=gzip&style=flat-square
-[gzip-url]: https://unpkg.com/gitalk/dist/gitalk.min.js
+
+
+
+
+
 
 
