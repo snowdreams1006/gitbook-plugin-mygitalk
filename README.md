@@ -1,6 +1,6 @@
 # gitbook-plugin-mygitalk
 
-[![npm][npm-version-image]][npm-version-url] [![cnpm][taonpm-version-image]][taonpm-version-url] [![cnpm-downloads][taonpm-downloads-image]][taonpm-version-url] [![gitbook-version][gitbook-version-image]][gitbook-version-url] [![taonpm-vulnerabilities][taonpm-vulnerabilities-image]][taonpm-vulnerabilities-url]
+[![npm-version][npm-version-image]][npm-version-url] [![npm-download][npm-download-image]][npm-version-url] [![gitbook-version][gitbook-version-image]][gitbook-version-url]
 
 `Mygitalk` is a **gitbook comment plugin** based on `gitalk`.
 
@@ -80,7 +80,7 @@ The [gitbook-plugin-mygitalk](https://github.com/snowdreams1006/gitbook-plugin-m
 
 ## Feedback
 
-I am very happy to help out with your books or any other questions you might have. 
+I am very happy to help out with your books or any other questions you might have. see [snowdreams1006](https://github.com/snowdreams1006)
 
 You can email [me](mailto:snowdreams1006@163.com) or [new issue](https://github.com/snowdreams1006/gitbook-plugin-mygitalk/issues) on github.
 
@@ -90,10 +90,6 @@ You can email [me](mailto:snowdreams1006@163.com) or [new issue](https://github.
 
 [npm-version-image]: https://img.shields.io/npm/v/gitbook-plugin-mygitalk.svg?style=flat-square
 [npm-version-url]: https://www.npmjs.com/package/gitbook-plugin-mygitalk
-[taonpm-version-image]: https://npm.taobao.org/badge/v/gitbook-plugin-mygitalk.svg
-[taonpm-version-url]: https://npm.taobao.org/package/gitbook-plugin-mygitalk
-[taonpm-downloads-image]: https://npm.taobao.org/badge/d/gitbook-plugin-mygitalk.svg
+[npm-download-image]: https://npm.taobao.org/badge/d/gitbook-plugin-mygitalk.svg
 [gitbook-version-image]: https://badgen.net/badge/gitbook/%3E%3D2.4.3/blue
 [gitbook-version-url]: https://www.npmjs.com/package/gitbook
-[taonpm-vulnerabilities-image]: https://snyk.io.cnpmjs.org/test/npm/gitbook-plugin-mygitalk/badge.svg
-[taonpm-vulnerabilities-url]: https://snyk.io.cnpmjs.org/test/npm/gitbook-plugin-mygitalk
