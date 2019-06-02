@@ -21,6 +21,10 @@ If you want to know the story behind `mygitalk`, please visit [gitbook-plugin-my
 - Facebook-like distraction free mode (Can be enabled via the `distractionFreeMode` option).
 - Hotkey submit comment (cmd|ctrl + enter).
 
+## Example
+
+The [gitbook-plugin-mygitalk](https://github.com/snowdreams1006/gitbook-plugin-mygitalk) project has been integrated with the plugin itself or you can refer to the [sample project](https://github.com/snowdreams1006/gitbook-plugin-mygitalk/tree/master/example).
+
 ## Install
 
 Add this plugin to the `book.json` configuration file.
@@ -60,150 +64,23 @@ Add it to your `book.json` with a basic configuration
 
 Run `gitbook build` or `gitbook serve` to test this plugin.
 
-## Options
+## Usage
 
-- **clientID** `String` 
+- Install this plugin via `npm` or `gitbook` .
+- Configure this plugin by applying for `github` authentication.
+- Run `gitbook build` or `gitbook serve` to verify this plugin is in effect.
+- Publish to the production environment to implement the comment function really.
+- If you feel this plugin is good, feel free to `star` it.
 
-  **Required**. GitHub Application Client ID.
+## Help
 
-- **clientSecret** `String` 
+I am very happy to help out with your books or any other questions you might have. 
 
-  **Required**. GitHub Application Client Secret.
-
-- **repo** `String` 
-
-  **Required**. GitHub repository.
-
-- **owner** `String` 
-
-  **Required**. GitHub repository owner. Can be personal user or organization.
-
-- **admin** `Array` 
-
-  **Required**. GitHub repository owner and collaborators. (Users who having write access to this repository)
-
-- **id** `String` 
-  
-  Default: `location.href`.
-
-  The unique id of the page. Length must less than 50.
-
-- **number** `Number` 
-  
-  Default: `-1`.
-
-  The issue ID of the page, if the `number` attribute is not defined, issue will be located using `id`.
-
-- **labels** `Array` 
-  
-  Default: `['Gitalk']`.
-
-  GitHub issue labels.
-
-- **title** `String` 
-  
-  Default: `document.title`.
-
-  GitHub issue title.
-
-- **body** `String` 
-  
-  Default: `location.href + header.meta[description]`.
-
-  GitHub issue body.
-
-- **language** `String` 
-  
-  Default: `navigator.language || navigator.userLanguage`.
-
-  Localization language key, `en`, `zh-CN` and `zh-TW` are currently available.
-
-- **perPage** `Number` 
-  
-  Default: `10`.
-
-  Pagination size, with maximum 100.
-
-- **distractionFreeMode** `Boolean` 
-  
-  Default: false.
-
-  Facebook-like distraction free mode.
-
-- **pagerDirection** `String`
-
-  Default: 'last'
-
-  Comment sorting direction, available values are `last` and `first`.
-
-- **createIssueManually** `Boolean` 
-  
-  Default: `false`.
-
-  By default, Gitalk will create a corresponding github issue for your every single page automatically when the logined user is belong to the `admin` users. You can create it manually by setting this option to `true`.
-
-- **proxy** `String` 
-  
-  Default: `https://cors-anywhere.herokuapp.com/https://github.com/login/oauth/access_token`.
-
-  GitHub oauth request reverse proxy for CORS. [Why need this?](https://github.com/isaacs/github/issues/330)
-
-- **flipMoveOptions** `Object` 
-  
-  Default:
-  ```js
-    {
-      staggerDelayBy: 150,
-      appearAnimation: 'accordionVertical',
-      enterAnimation: 'accordionVertical',
-      leaveAnimation: 'accordionVertical',
-    }
-  ```
-
-  Comment list animation. [Reference](https://github.com/joshwcomeau/react-flip-move/blob/master/documentation/enter_leave_animations.md)
-
-- **enableHotKey** `Boolean` 
-  
-  Default: `true`.
-
-  Enable hot key (cmd|ctrl + enter) submit comment.
-
-
-## Contributing
-
-1. [Fork the repository](https://github.com/gitalk/gitalk/fork) and create your branch from master
-2. If you've added code that should be tested, add tests!
-3. If you've changed APIs, update the documentation.
-4. Ensure the test suite passes (npm test).
-5. Make sure your code lints (npm run lint).
-6. Commit your changes (git commit) [Commit Message Format Reference](https://github.com/angular/angular.js/blob/master/CONTRIBUTING.md#-git-commit-guidelines)
-
-## Similar Projects
-
-- [gitment](https://github.com/imsun/gitment)
-- [vssue](https://vssue.js.org)
-
-### change logs
-
-#### version 0.0.6 (2016-12-06T16:54:38)
-
-* fix: Fixed not to do anything when the width of the screen size was 600px or less (#6) 
-* fix: changed the position of the bar position from "localStorage" to "sessiongStorage" (#10)
-
-#### version 0.0.6 (2015-11-06T16:54:38)
-
-* supported Gitbook v3
-
-#### version 0.0.5 (2015-11-06T16:54:38)
-
-* fixed don't work toggle button of summary view display from Gitbook V2.5.x
-
-This software is released under the MIT License, see LICENSE.txt.
+You can email [me](mailto:snowdreams1006@163.com) or [new issue](https://github.com/snowdreams1006/gitbook-plugin-mygitalk/issues) on github.
 
 ## License
 
-`gitbook-plugin-mygitalk` is licensed under `Apache-2.0` License
-
+`gitbook-plugin-mygitalk` is licensed under `Apache-2.0` License. See [LICENSE](LICENSE) for the full license text.
 
 [npm-version-image]: https://img.shields.io/npm/v/gitbook-plugin-mygitalk.svg?style=flat-square
 [npm-version-url]: https://www.npmjs.com/package/gitbook-plugin-mygitalk
