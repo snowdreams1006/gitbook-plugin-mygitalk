@@ -78,6 +78,31 @@
         "default": "last",
         "description": "Comment sorting direction, available values are last and first."
       },
+      "createIssueManually": {
+        "type": "boolean",
+        "default": false,
+        "description": "By default, Gitalk will create a corresponding github issue for your every single page automatically when the logined user is belong to the admin users. You can create it manually by setting this option to true."
+      },
+      "proxy": {
+        "type": "string",
+        "default": "https://cors-anywhere.herokuapp.com/https://github.com/login/oauth/access_token",
+        "description": "GitHub oauth request reverse proxy for CORS. Why need this?"
+      },
+      "flipMoveOptions": {
+        "type": "object",
+        "default": {
+          "staggerDelayBy": 150,
+          "appearAnimation": "accordionVertical",
+          "enterAnimation": "accordionVertical",
+          "leaveAnimation": "accordionVertical",
+        },
+        "description": "Comment list animation. Reference"
+      },
+      "enableHotKey": {
+        "type": "boolean",
+        "default": true,
+        "description": "Enable hot key (cmd|ctrl + enter) submit comment."
+      }
     }
   },
   "scripts": {
