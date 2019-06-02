@@ -1,7 +1,7 @@
 {
   "name": "gitbook-plugin-mygitalk",
   "main": "index.js",
-  "version": "0.0.12",
+  "version": "0.0.13",
   "description": "use gitalk to discuss with others",
   "engines": {
     "gitbook": ">=2.4.3"
@@ -35,8 +35,19 @@
       },
       "id": {
         "type": "string",
+        "default": "location.href",
         "description": "location.href.The unique id of the page. Length must less than 50."
-      }
+      },
+      "number": {
+        "type": "number",
+        "default": -1,
+        "description": "The issue ID of the page, if the number attribute is not defined, issue will be located using id."
+      },
+      "labels": {
+        "type": "array",
+        "default": ["Gitalk"],
+        "description": "GitHub issue labels."
+      },
     }
   },
   "scripts": {
