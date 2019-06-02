@@ -48,6 +48,36 @@
         "default": ["Gitalk"],
         "description": "GitHub issue labels."
       },
+      "title": {
+        "type": "string",
+        "default": "document.title",
+        "description": "GitHub issue title."
+      },
+      "body": {
+        "type": "string",
+        "default": "location.href + header.meta[description]",
+        "description": "GitHub issue body."
+      },
+      "language": {
+        "type": "string",
+        "default": "navigator.language || navigator.userLanguage",
+        "description": "Localization language key, en, zh-CN and zh-TW are currently available."
+      },
+      "perPage": {
+        "type": "number",
+        "default": 10,
+        "description": "Pagination size, with maximum 100."
+      },
+      "distractionFreeMode": {
+        "type": "boolean",
+        "default": false,
+        "description": "Facebook-like distraction free mode."
+      },
+      "pagerDirection": {
+        "type": "string",
+        "default": "last",
+        "description": "Comment sorting direction, available values are last and first."
+      },
     }
   },
   "scripts": {
