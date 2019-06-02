@@ -10,9 +10,9 @@ If you want to know the story behind `mygitalk`, please visit [gitbook-plugin-my
 
 ## Usage
 
-- Install this plugin via `npm` or `gitbook` .
+- Install this plugin.
 
-Add this plugin to the `book.json` configuration file.
+Add `mygitalk` to `plugins` in `book.json` configuration file.
 
 ```json
 {
@@ -20,17 +20,21 @@ Add this plugin to the `book.json` configuration file.
 }
 ```
 
-Install this plugin via `npm` or `gitbook` .
+Install `mygitalk` via `npm` or `gitbook` .
 
 ```bash
 $ npm install gitbook-plugin-mygitalk
 ```
 
+or 
+
 ```bash
 $ gitbook install
 ```
 
-- Configure this plugin by applying for `github` authentication.
+- Configure this plugin.
+
+Prepare a `GitHub application` , if you don't have one, [Click here](https://github.com/settings/applications/new) to register a new one.
 
 Add it to your `book.json` with a basic configuration
 
@@ -49,11 +53,14 @@ Add it to your `book.json` with a basic configuration
 }
 ```
 
-- Run `gitbook build` or `gitbook serve` to verify this plugin is in effect.
+- Run `gitbook` locally.
 
-Run `gitbook build` or `gitbook serve` to test this plugin.
+Run `gitbook build` or `gitbook serve` to verify this plugin is in effect and should not have been initialized yet.
 
-- Publish to the production environment to implement the comment function really.
+- Release `gitbook` officially
+
+Publish to the production environment to implement the comment function really.
+
 - If you feel this plugin is good, feel free to `star` it.
 
 ## Example
