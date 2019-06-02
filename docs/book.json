@@ -1,25 +1,41 @@
 {
-  "title": "gitbook-plugin-mygitalk",
-  "author": "snowdreams1006",
-  "description": "gitbook plugin using gitalk to discuss with others",
-  "language": "en",
-  "gitbook": "3.2.3",
-  "links": {
-      "sidebar": {
-          "snowdreams1006": "https://snowdreams1006.github.io/"
-      }
-  },
-  "plugins": [
-    "github",
-    "edit-link"
-  ],
-  "pluginsConfig": {
-    "github": {
-      "url": "https://github.com/snowdreams1006/gitbook-plugin-mygitalk"
+    "title": "gitbook-plugin-mygitalk",
+    "author": "snowdreams1006",
+    "description": "gitbook plugin using gitalk to discuss with others",
+    "language": "en",
+    "gitbook": "3.2.3",
+    "links":
+    {
+        "sidebar":
+        {
+            "snowdreams1006": "https://snowdreams1006.github.io/"
+        }
     },
-    "edit-link": {
-      "base": "https://github.com/snowdreams1006/gitbook-plugin-mygitalk/blob/master",
-      "label": "edit"
+    "plugins": [
+        "github",
+        "edit-link",
+        "mygitalk"
+    ],
+    "pluginsConfig":
+    {
+        "github":
+        {
+            "url": "https://github.com/snowdreams1006/gitbook-plugin-mygitalk"
+        },
+        "edit-link":
+        {
+            "base": "https://github.com/snowdreams1006/gitbook-plugin-mygitalk/blob/master",
+            "label": "edit"
+        },
+        "mygitalk":
+        {
+            "clientID": "3f62415a283d19cbd696",
+            "clientSecret": "aed0e1db0620bf5d0e3a3f0225f801997ad74e58",
+            "repo": "snowdreams1006.github.io",
+            "owner": "snowdreams1006",
+            "admin": ["snowdreams1006"],
+            "id": "window.location.pathname",
+            "distractionFreeMode": false
+        }
     }
-  }
 }

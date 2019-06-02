@@ -1,43 +1,19 @@
 {
-  "title": "示例",
-  "author": "snowdreams1006",
-  "description": "测试评论插件",
-  "plugins": [
-    "tbfed-pagefooter",
-    "rss",
-    "mygitalk"
-  ],
-  "pluginsConfig": {
-    "tbfed-pagefooter": {
-      "copyright":"&copy snowdreams1006",
-      "modify_label": "文件修订时间：",
-      "modify_format": "YYYY-MM-DD HH:mm:ss"
-    },        
-    "rss": {
-      "title": "雪之梦技术驿站",
-      "description": "雪之梦技术驿站静态网站,源码托管于 https://github.com/snowdreams1006/snowdreams1006.github.io",
-      "author": "snowdreams1006",
-      "site_url": "https://snowdreams1006.github.io/",
-      "feed_url": "https://snowdreams1006.github.io/rss",
-      "managingEditor": "snowdreams1006@163.com",
-      "webMaster": "snowdreams1006@163.com",
-      "categories": [
-        "markdown",
-        "git",
-        "github",
-        "gitbook",
-        "java",
-        "php"
-      ]
-    },
-    "mygitalk": {
-      "clientID": "3f62415a283d19cbd696",
-      "clientSecret": "aed0e1db0620bf5d0e3a3f0225f801997ad74e58",
-      "repo": "snowdreams1006.github.io",
-      "owner": "snowdreams1006",
-      "admin": ["snowdreams1006"],
-      "id": "window.location.pathname",
-      "distractionFreeMode": false
-    } 
-  }
+    "title": "示例",
+    "author": "snowdreams1006",
+    "description": "测试评论插件",
+    "plugins": [
+        "mygitalk@0.0.11"
+    ],
+    "pluginsConfig":{
+        "mygitalk":{
+            "clientID": "3f62415a283d19cbd696",
+            "clientSecret": "aed0e1db0620bf5d0e3a3f0225f801997ad74e58",
+            "repo": "snowdreams1006.github.io",
+            "owner": "snowdreams1006",
+            "admin": ["snowdreams1006"],
+            "id": "window.location.pathname",
+            "distractionFreeMode": false
+        }
+    }
 }
