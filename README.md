@@ -44,6 +44,24 @@ Add it to your `book.json` with a basic configuration:
 }
 ```
 
+
+### change logs
+
+#### version 0.0.6 (2016-12-06T16:54:38)
+
+* fix: Fixed not to do anything when the width of the screen size was 600px or less (#6) 
+* fix: changed the position of the bar position from "localStorage" to "sessiongStorage" (#10)
+
+#### version 0.0.6 (2015-11-06T16:54:38)
+
+* supported Gitbook v3
+
+#### version 0.0.5 (2015-11-06T16:54:38)
+
+* fixed don't work toggle button of summary view display from Gitbook V2.5.x
+
+This software is released under the MIT License, see LICENSE.txt.
+
 ## License
 
 `https://github.com/snowdreams1006/gitbook-plugin-mygitalk` is licensed under MIT License
