@@ -10,7 +10,7 @@ If you want to know the story behind `mygitalk`, please visit [gitbook-plugin-my
 
 ## Usage
 
-- Install this plugin.
+- Install this plugin
 
 Add `mygitalk` to `plugins` in `book.json` configuration file.
 
@@ -32,7 +32,7 @@ or
 $ gitbook install
 ```
 
-- Configure this plugin.
+- Configure this plugin
 
 Prepare a `GitHub application` , if you don't have one, [Click here](https://github.com/settings/applications/new) to register a new one.
 
@@ -53,7 +53,7 @@ Add it to your `book.json` with a basic configuration
 }
 ```
 
-- Run `gitbook` locally.
+- Run `gitbook` locally
 
 Run `gitbook build` or `gitbook serve` to verify this plugin is in effect and should not have been initialized yet.
 
@@ -61,7 +61,9 @@ Run `gitbook build` or `gitbook serve` to verify this plugin is in effect and sh
 
 Publish to the production environment to implement the comment function really.
 
-- If you feel this plugin is good, feel free to `star` it.
+- `Star` this plugin
+
+If you feel this plugin is helpful, feel free to `star` [gitbook-plugin-mygitalk](https://github.com/snowdreams1006/gitbook-plugin-mygitalk).
 
 ## Example
 
