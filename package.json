@@ -90,12 +90,6 @@
       },
       "flipMoveOptions": {
         "type": "object",
-        "default": {
-          "staggerDelayBy": 150,
-          "appearAnimation": "accordionVertical",
-          "enterAnimation": "accordionVertical",
-          "leaveAnimation": "accordionVertical",
-        },
         "description": "Comment list animation. Reference"
       },
       "enableHotKey": {
