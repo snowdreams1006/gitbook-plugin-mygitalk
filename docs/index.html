@@ -65,7 +65,7 @@
     <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="use/" />
+    <link rel="next" href="use/README.md" />
     
     
 
@@ -117,9 +117,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.2" data-path="use/">
+        <li class="chapter " data-level="1.2" data-path="use/README.md">
             
-                <a href="use/">
+                <span>
             
                     
                     how to use
@@ -131,9 +131,9 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="1.2.1" data-path="use/gitalk.html">
+        <li class="chapter " data-level="1.2.1" data-path="use/gitalk-info.md">
             
-                <a href="use/gitalk.html">
+                <span>
             
                     
                     what is gitalk
@@ -144,9 +144,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.2.2" data-path="use/mygitalk.html">
+        <li class="chapter " data-level="1.2.2" data-path="use/mygitalk-name.md">
             
-                <a href="use/mygitalk.html">
+                <span>
             
                     
                     why name mygitalk
@@ -157,25 +157,12 @@
             
         </li>
     
-        <li class="chapter " data-level="1.2.3" data-path="use/mygitalk-custom.html">
+        <li class="chapter " data-level="1.2.3" data-path="use/mygitalk-story.md">
             
-                <a href="use/mygitalk-custom.html">
-            
-                    
-                    how to custom mygitalk
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="1.2.4" data-path="use/mygitalk-more.html">
-            
-                <a href="use/mygitalk-more.html">
+                <span>
             
                     
-                    learn more about mygitalk
+                    story about mygitalk
             
                 </a>
             
@@ -247,14 +234,72 @@
                                 <section class="normal markdown-section">
                                 
                                 <h1 id="gitbook-plugin-mygitalk">gitbook-plugin-mygitalk</h1>
-<p>welcome to visit <a href="GLOSSARY.html#gitbook" class="glossary-term" title="GitBook is a modern documentation platform where teams can document everything from products, to APIs and internal knowledge-bases.">gitbook</a>-plugin-mygitalk</p>
-<p><a href="GLOSSARY.html#gitbook" class="glossary-term" title="GitBook is a modern documentation platform where teams can document everything from products, to APIs and internal knowledge-bases.">gitbook</a> plugin using <a href="GLOSSARY.html#gitalk" class="glossary-term" title="A comment plugin based on Github Issue and Preact">gitalk</a> to discuss with others.</p>
-<p>please visit <a href="https://snowdreams1006.github.io" target="_blank">https://snowdreams1006.github.io</a> to learn more knowledge.</p>
-<p>if you have any quesition,please dont hesitate to <a href="snowdreams1006@163.com">contact me</a></p>
-<p>cnpm install -g babel-core babel-loader babel-polyfill babel-preset-es2015 babel-preset-latest webpack webpack-cli</p>
-<p>cnpm i babel-core babel-loader babel-polyfill babel-preset-es2015 babel-preset-latest webpack webpack-cli --save-dev</p>
-<p>cnpm install --save-dev webpack webpack-cli </p>
-<p>cnpm install --save-dev babel-core babel-loader babel-polyfill babel-preset-es2015 babel-preset-latest webpack webpack-cli<div id="gitalk-container" class="gitbook-plugin-mygitalk"></div></p>
+<p><a href="https://www.npmjs.com/package/gitbook-plugin-mygitalk" target="_blank"><img src="https://img.shields.io/npm/v/gitbook-plugin-mygitalk.svg?style=flat-square" alt="npm-version"></a> <a href="https://www.npmjs.com/package/gitbook-plugin-mygitalk" target="_blank"><img src="https://npm.taobao.org/badge/d/gitbook-plugin-mygitalk.svg" alt="npm-download"></a> [<img src="https://badgen.net/badge/gitbook/%3E%3D2.4.3/blue" alt="gitbook-version">][gitbook-version-url]</p>
+<p><code>Mygitalk</code> is a <strong>gitbook comment plugin</strong> based on <code>gitalk</code>.</p>
+<p>If you want to know the story behind <code>mygitalk</code>, please visit <a href="https://snowdreams1006.github.io/gitbook-plugin-mygitalk/" target="_blank">gitbook-plugin-mygitalk</a>.</p>
+<p><img src="images/mygitalk-use-preview.png" alt="mygitalk-use-preview.png"></p>
+<h2 id="feature">Feature</h2>
+<ul>
+<li>Authentication with github account</li>
+<li>Serverless, all comments will be stored as github issues</li>
+<li>Both personal and organization github projects can be used to store comments </li>
+<li>Localization, support multiple languages [en, zh-CN, zh-TW, es-ES, fr, ru]</li>
+<li>Facebook-like distraction free mode (Can be enabled via the <code>distractionFreeMode</code> option)</li>
+<li>Hotkey submit comment (cmd|ctrl + enter)</li>
+</ul>
+<h2 id="usage">Usage</h2>
+<ul>
+<li>Install this plugin</li>
+</ul>
+<p>Add <code>mygitalk</code> to <code>plugins</code> in <code>book.json</code> configuration file.</p>
+<pre><code class="lang-json">{
+    <span class="hljs-string">&quot;plugins&quot;</span> : [<span class="hljs-string">&quot;mygitalk&quot;</span>]
+}
+</code></pre>
+<p>Install <code>mygitalk</code> via <code>npm</code> or <code>gitbook</code> .</p>
+<pre><code class="lang-bash">$ npm install gitbook-plugin-mygitalk
+</code></pre>
+<p>or </p>
+<pre><code class="lang-bash">$ gitbook install
+</code></pre>
+<ul>
+<li>Configure this plugin</li>
+</ul>
+<p>Prepare a <code>GitHub application</code> , if you don&apos;t have one, <a href="https://github.com/settings/applications/new" target="_blank">Click here</a> to register a new one.</p>
+<p>Add it to your <code>book.json</code> with a basic configuration</p>
+<pre><code class="lang-json">{
+  <span class="hljs-string">&quot;pluginsConfig&quot;</span>: {
+    <span class="hljs-string">&quot;mygitalk&quot;</span>: {
+        <span class="hljs-string">&quot;clientID&quot;</span>: <span class="hljs-string">&quot;GitHub Application Client ID&quot;</span>,
+        <span class="hljs-string">&quot;clientSecret&quot;</span>: <span class="hljs-string">&quot;GitHub Application Client Secret&quot;</span>,
+        <span class="hljs-string">&quot;repo&quot;</span>: <span class="hljs-string">&quot;GitHub repo&quot;</span>,
+        <span class="hljs-string">&quot;owner&quot;</span>: <span class="hljs-string">&quot;GitHub repo owner&quot;</span>,
+        <span class="hljs-string">&quot;admin&quot;</span>: [<span class="hljs-string">&quot;GitHub repo owner and collaborators, only these guys can initialize github issues&quot;</span>],
+        <span class="hljs-string">&quot;distractionFreeMode&quot;</span>: <span class="hljs-literal">false</span>
+    }
+  }
+}
+</code></pre>
+<ul>
+<li>Run <code>gitbook</code> locally</li>
+</ul>
+<p>Run <code>gitbook build</code> or <code>gitbook serve</code> to verify this plugin is in effect and should not have been initialized yet.</p>
+<ul>
+<li>Release <code>gitbook</code> officially</li>
+</ul>
+<p>Publish to the production environment to implement the comment function really.</p>
+<ul>
+<li><code>Star</code> this plugin</li>
+</ul>
+<p>If you feel this plugin is helpful, feel free to <code>star</code> <a href="https://github.com/snowdreams1006/gitbook-plugin-mygitalk" target="_blank">gitbook-plugin-mygitalk</a>.</p>
+<h2 id="example">Example</h2>
+<p>The <a href="https://github.com/snowdreams1006/gitbook-plugin-mygitalk" target="_blank">gitbook-plugin-mygitalk</a> project has been integrated with the plugin itself or you can refer to the <a href="https://github.com/snowdreams1006/gitbook-plugin-mygitalk/tree/master/example" target="_blank">sample project</a>.</p>
+<h2 id="feedback">Feedback</h2>
+<p>I am very happy to help out with your books or any other questions you might have. see <a href="https://github.com/snowdreams1006" target="_blank">snowdreams1006</a></p>
+<p>You can email <a href="mailto:snowdreams1006@163.com" target="_blank">me</a> or <a href="https://github.com/snowdreams1006/gitbook-plugin-mygitalk/issues" target="_blank">new issue</a> on github.</p>
+<h2 id="license">License</h2>
+<p><code>gitbook-plugin-mygitalk</code> is licensed under <code>Apache-2.0</code> License. See <a href="LICENSE">LICENSE</a> for the full license text.</p>
+<p>[gitbook-version-url]: <a href="https://www.npmjs.com/package/gitbook" target="_blank">https://www.npmjs.com/package/gitbook</a><div id="gitalk-container" class="gitbook-plugin-mygitalk"></div></p>
 
                                 
                                 </section>
@@ -283,7 +328,7 @@
             
                 
                 
-                <a href="use/" class="navigation navigation-next navigation-unique" aria-label="Next page: how to use">
+                <a href="use/README.md" class="navigation navigation-next navigation-unique" aria-label="Next page: how to use">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -294,7 +339,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Introduction","level":"1.1","depth":1,"next":{"title":"how to use","level":"1.2","depth":1,"path":"use/README.md","ref":"use/README.md","articles":[{"title":"what is gitalk","level":"1.2.1","depth":2,"path":"use/gitalk.md","ref":"use/gitalk.md","articles":[]},{"title":"why name mygitalk","level":"1.2.2","depth":2,"path":"use/mygitalk.md","ref":"use/mygitalk.md","articles":[]},{"title":"how to custom mygitalk","level":"1.2.3","depth":2,"path":"use/mygitalk-custom.md","ref":"use/mygitalk-custom.md","articles":[]},{"title":"learn more about mygitalk","level":"1.2.4","depth":2,"path":"use/mygitalk-more.md","ref":"use/mygitalk-more.md","articles":[]}]},"dir":"ltr"},"config":{"plugins":["github","edit-link","mygitalk"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"github":{"url":"https://github.com/snowdreams1006/gitbook-plugin-mygitalk"},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"mygitalk":{"flipMoveOptions":{},"body":"location.href + header.meta[description]","clientID":"21f570632b0be1a7f0eb","number":-1,"perPage":10,"proxy":"https://cors-anywhere.herokuapp.com/https://github.com/login/oauth/access_token","admin":["snowdreams1006"],"createIssueManually":false,"distractionFreeMode":false,"repo":"gitbook-plugin-mygitalk","owner":"snowdreams1006","enableHotKey":true,"title":"document.title","language":"navigator.language || navigator.userLanguage","id":"location.href","clientSecret":"8a94b375c5d05d672393201c28d479a6f9f5a538","pagerDirection":"last","labels":["Gitalk"]},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"edit-link":{"label":"edit","base":"https://github.com/snowdreams1006/gitbook-plugin-mygitalk/blob/master"},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"snowdreams1006","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"gitbook-plugin-mygitalk","language":"en","links":{"sidebar":{"snowdreams1006":"https://snowdreams1006.github.io/"}},"gitbook":"3.2.3","description":"gitbook plugin using gitalk to discuss with others"},"file":{"path":"README.md","mtime":"2019-05-25T12:49:42.481Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-06-02T09:28:45.438Z"},"basePath":".","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Introduction","level":"1.1","depth":1,"next":{"title":"how to use","level":"1.2","depth":1,"path":"use/README.md","ref":"use/README.md","articles":[{"title":"what is gitalk","level":"1.2.1","depth":2,"path":"use/gitalk-info.md","ref":"use/gitalk-info.md","articles":[]},{"title":"why name mygitalk","level":"1.2.2","depth":2,"path":"use/mygitalk-name.md","ref":"use/mygitalk-name.md","articles":[]},{"title":"story about mygitalk","level":"1.2.3","depth":2,"path":"use/mygitalk-story.md","ref":"use/mygitalk-story.md","articles":[]}]},"dir":"ltr"},"config":{"plugins":["github","edit-link","mygitalk"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"github":{"url":"https://github.com/snowdreams1006/gitbook-plugin-mygitalk"},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"mygitalk":{"flipMoveOptions":{},"clientID":"21f570632b0be1a7f0eb","number":-1,"perPage":10,"proxy":"https://cors-anywhere.herokuapp.com/https://github.com/login/oauth/access_token","admin":["snowdreams1006"],"createIssueManually":false,"distractionFreeMode":false,"repo":"gitbook-plugin-mygitalk","owner":"snowdreams1006","enableHotKey":true,"clientSecret":"8a94b375c5d05d672393201c28d479a6f9f5a538","pagerDirection":"last","labels":["Gitalk"]},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"edit-link":{"label":"edit page","base":"https://github.com/snowdreams1006/gitbook-plugin-mygitalk/blob/master"},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"snowdreams1006","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"gitbook-plugin-mygitalk","language":"en","links":{"sidebar":{"snowdreams1006":"https://snowdreams1006.github.io/"}},"gitbook":"3.2.3","description":"gitbook plugin using gitalk to discuss with others"},"file":{"path":"README.md","mtime":"2019-06-02T15:57:15.857Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-06-02T15:57:34.582Z"},"basePath":".","book":{"language":""}});
         });
     </script>
 </div>
