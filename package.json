@@ -1,7 +1,7 @@
 {
   "name": "gitbook-plugin-mygitalk",
   "main": "index.js",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "mygitalk is a gitbook comment plugin based on gitalk",
   "engines": {
     "gitbook": ">=2.4.3"

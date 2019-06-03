@@ -1,6 +1,9 @@
 # gitbook-plugin-mygitalk
 
-[![npm-version][npm-version-image]][npm-version-url] [![npm-download][npm-download-image]][npm-version-url] [![gitbook-version][gitbook-version-image]][gitbook-version-url]
+[![npm version](https://badge.fury.io/js/gitbook-plugin-mygitalk.svg)](https://badge.fury.io/js/gitbook-plugin-mygitalk)
+[![npm-download](https://npm.taobao.org/badge/d/gitbook-plugin-mygitalk.svg)](https://github.com/snowdreams1006/gitbook-plugin-mygitalk/releases)
+[![star this repo](http://githubbadges.com/star.svg?user=snowdreams1006&repo=gitbook-plugin-mygitalk&style=default)](https://github.com/snowdreams1006/gitbook-plugin-mygitalk)
+[![fork this repo](http://githubbadges.com/fork.svg?user=snowdreams1006&repo=gitbook-plugin-mygitalk&style=default)](https://github.com/snowdreams1006/gitbook-plugin-mygitalk/fork)
 
 `Mygitalk` is a **gitbook comment plugin** based on `gitalk`.
 
@@ -87,9 +90,3 @@ You can email [me](mailto:snowdreams1006@163.com) or [new issue](https://github.
 ## License
 
 `gitbook-plugin-mygitalk` is licensed under `Apache-2.0` License. See [LICENSE](LICENSE) for the full license text.
-
-[npm-version-image]: https://img.shields.io/npm/v/gitbook-plugin-mygitalk.svg?style=flat-square
-[npm-version-url]: https://www.npmjs.com/package/gitbook-plugin-mygitalk
-[npm-download-image]: https://npm.taobao.org/badge/d/gitbook-plugin-mygitalk.svg
-[gitbook-version-image]: https://badgen.net/badge/gitbook/%3E%3D2.4.3/blue
-[gitbook-version-url]: https://www.npmjs.com/package/gitbook
