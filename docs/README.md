@@ -1,7 +1,11 @@
 # gitbook-plugin-mygitalk
 
-[![npm version](https://badge.fury.io/js/gitbook-plugin-mygitalk.svg)](https://badge.fury.io/js/gitbook-plugin-mygitalk)
-[![npm-download](https://npm.taobao.org/badge/d/gitbook-plugin-mygitalk.svg)](https://github.com/snowdreams1006/gitbook-plugin-mygitalk/releases)
+[![npm version](https://img.shields.io/npm/v/gitbook-plugin-mygitalk.svg)](https://www.npmjs.com/package/gitbook-plugin-mygitalk)
+[![npm-download](https://img.shields.io/npm/dt/gitbook-plugin-mygitalk.svg)](https://www.npmjs.com/package/gitbook-plugin-mygitalk)
+[![npm-license](https://img.shields.io/npm/l/gitbook-plugin-mygitalk.svg)](https://www.npmjs.com/package/gitbook-plugin-mygitalk)
+[![GitHub language count](https://img.shields.io/github/languages/count/snowdreams1006/gitbook-plugin-mygitalk.svg)](https://github.com/snowdreams1006/gitbook-plugin-mygitalk)
+[![GitHub search hit counter](https://img.shields.io/github/search/snowdreams1006/gitbook-plugin-mygitalk/mygitalk.svg)](https://github.com/snowdreams1006/gitbook-plugin-mygitalk)
+[![GitHub top language](https://img.shields.io/github/languages/top/snowdreams1006/gitbook-plugin-mygitalk.svg)](https://github.com/snowdreams1006/gitbook-plugin-mygitalk)
 [![star this repo](http://githubbadges.com/star.svg?user=snowdreams1006&repo=gitbook-plugin-mygitalk&style=default)](https://github.com/snowdreams1006/gitbook-plugin-mygitalk)
 [![fork this repo](http://githubbadges.com/fork.svg?user=snowdreams1006&repo=gitbook-plugin-mygitalk&style=default)](https://github.com/snowdreams1006/gitbook-plugin-mygitalk/fork)
 
