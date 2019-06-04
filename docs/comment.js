@@ -42,8 +42,7 @@ console.log("开始初始化评论...");
 
     console.log("开始获取已经初始化的issues");
     let issues = await send(requestGetOpt);
-          console.log(`已经存在${issues}`);
-          console.log("issues",JSON.stringify(issues));
+    console.log("issues", JSON.stringify(issues));
 
 
     console.log(`已经存在${issues.length}个issues`);

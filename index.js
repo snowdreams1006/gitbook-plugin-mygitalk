@@ -1,4 +1,4 @@
-let mygitalkConfig = {};
+var mygitalkConfig = {};
 
 module.exports = {
   book: {
@@ -19,6 +19,7 @@ module.exports = {
     "page:before": function(page) {
       if (mygitalkConfig) {
         var str = '<div id="gitalk-container" class="gitbook-plugin-mygitalk"></div>';
+
         page.content = page.content + str;
       }
 
