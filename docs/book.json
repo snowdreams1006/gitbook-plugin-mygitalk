@@ -12,6 +12,7 @@
     "plugins": [
         "github",
         "edit-link",
+        "sitemap-general",
         "mygitalk"
     ],
     "pluginsConfig": {
@@ -21,6 +22,9 @@
         "edit-link": {
             "base": "https://github.com/snowdreams1006/gitbook-plugin-mygitalk/blob/master",
             "label": "edit page"
+        },
+        "sitemap-general": {
+            "prefix": "https://snowdreams1006.github.io/gitbook-plugin-mygitalk/"
         },
         "mygitalk": {
             "clientID": "21f570632b0be1a7f0eb",
