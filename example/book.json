@@ -7,9 +7,12 @@
     ],
     "pluginsConfig":{
         "mygitalk":{
+            "prefix":"https://snowdreams1006.github.io/gitbook-plugin-mygitalk/",
             "clientID": "21f570632b0be1a7f0eb",
             "clientSecret": "8a94b375c5d05d672393201c28d479a6f9f5a538",
             "repo": "gitbook-plugin-mygitalk",
+            "username": "snowdreams1006",
+            "token": "fe1303c7a212d191aefe0ae2dd899aed84b2ca90",
             "owner": "snowdreams1006",
             "admin": ["snowdreams1006"],
             "distractionFreeMode": false
