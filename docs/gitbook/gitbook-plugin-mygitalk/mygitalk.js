@@ -1,24 +1,19 @@
-require(["gitbook"], function(gitbook) {
+require([
+  "gitbook"
+], function(gitbook, $) {
+  var mygitalk = {};
+
   gitbook.events.bind("start", function(e, config) {
-    // gitalk 默认配置
-    const mygitalk = config.mygitalk;
-    
-    if (mygitalk) {
-      // 初始化 gitalk
-      mygitalk.id = window.location.pathname;
+    mygitalk = config.mygitalk || {};
+    mygitalk["id"] = window.location.pathname;
 
-      const gitalk = new Gitalk(mygitalk);
-      gitalk.render("gitalk-container");
-
-      // 添加刷新按钮
-      gitbook.toolbar.createButton({
-        icon: "fa fa-refresh",
-        label: "mygitalk",
-        position: "right",
-        onClick: function() {
-          window.location.reload(true);
-        }
-      });
-    }
+    initMygitalk();
   });
+
+  gitbook.events.bind("page.change", initMygitalk);
+
+  function initMygitalk() {
+    const gitalk = new Gitalk(mygitalk);
+    gitalk.render("gitalk-container");
+  }
 });
