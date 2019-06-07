@@ -15,6 +15,7 @@ const config = {
   kind: "Gitalk", // "Gitalk" or "Gitment"
 };
 let issuesUrl = `https://api.github.com/repos/${config.username}/${config.repo}/issues?access_token=${config.token}`;
+console.log("issuesUrl",issuesUrl);
 
 let requestGetOpt = {
   url: `${issuesUrl}&page=1&per_page=1000`,
@@ -23,12 +24,15 @@ let requestGetOpt = {
     "User-Agent": "github-user"
   }
 };
+console.log("requestGetOpt",JSON.stringify(requestGetOpt));
+
 let requestPostOpt = {
   ...requestGetOpt,
   url: issuesUrl,
   method: "POST",
   form: ""
 };
+console.log("requestPostOpt",JSON.stringify(requestPostOpt));
 
 console.log("开始初始化评论...");
 
@@ -41,7 +45,11 @@ console.log("开始初始化评论...");
     console.log(`共检索到${urls.length}个链接`);
 
     console.log("开始获取已经初始化的issues");
+    
+    console.log("requestGetOpt",JSON.stringify(requestGetOpt));
     let issues = await send(requestGetOpt);
+    console.log("issues",JSON.stringify(issues));
+
     console.log("issues", JSON.stringify(issues));
 
 
