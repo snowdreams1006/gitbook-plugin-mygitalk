@@ -1,0 +1,192 @@
+{
+  "_args": [
+    [
+      {
+        "name": "gitbook-plugin-mygitalk",
+        "raw": "gitbook-plugin-mygitalk@0.1.5",
+        "rawSpec": "0.1.5",
+        "scope": null,
+        "spec": "0.1.5",
+        "type": "version"
+      },
+      "/Users/sunpo/Documents/workspace/gitbook-plugin-mygitalk/example"
+    ]
+  ],
+  "_from": "gitbook-plugin-mygitalk@0.1.5",
+  "_hasShrinkwrap": false,
+  "_id": "gitbook-plugin-mygitalk@0.1.5",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/gitbook-plugin-mygitalk",
+  "_nodeVersion": "10.15.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/gitbook-plugin-mygitalk_0.1.5_1559554729387_0.3307482465624625"
+  },
+  "_npmUser": {
+    "email": "snowdreams1006@163.com",
+    "name": "snowdreams1006"
+  },
+  "_npmVersion": "6.9.0",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "gitbook-plugin-mygitalk",
+    "raw": "gitbook-plugin-mygitalk@0.1.5",
+    "rawSpec": "0.1.5",
+    "scope": null,
+    "spec": "0.1.5",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/gitbook-plugin-mygitalk/-/gitbook-plugin-mygitalk-0.1.5.tgz",
+  "_shasum": "634a98d195da585d0239de030784b91986ff8bc6",
+  "_shrinkwrap": null,
+  "_spec": "gitbook-plugin-mygitalk@0.1.5",
+  "_where": "/Users/sunpo/Documents/workspace/gitbook-plugin-mygitalk/example",
+  "author": {
+    "email": "snowdreams1006@163.com",
+    "name": "snowdreams1006"
+  },
+  "bugs": {
+    "url": "https://github.com/snowdreams1006/gitbook-plugin-myGitalk/issues"
+  },
+  "dependencies": {
+    "gitalk": "^1.5.0"
+  },
+  "description": "mygitalk is a gitbook comment plugin based on gitalk",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "fileCount": 9,
+    "integrity": "sha512-DBUdB8MAtjeK0dFgCj8iuC+KAKy4ffQhLOCzZsJ8svMyPekhFZ9jCOYgJCn2oOhOOmihlp7IzpRRt7Km0cqcQw==",
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJc9OqqCRA9TVsSAnZWagAAf1wP/3cw0RShhWAmqCSsD40m\na5ftZw+e1iAIQG3wEIBTz93f+MPd6p2l0ZIEjrjaTYjl0zYQMm1IR2p87TVY\npb9jCvEkkb4ixbsE55JOwETffIY0qD/YuGpzfDZsmkX3CoRLg5QJwRWBBWzG\nA8SF5SJKfN5Vz1Mu3qga0n7k7JtayvEH0RgR0raqt+89YpYAUCD1FsAq2qsX\na37zNlyrmbctfRI75Y/rJZFM5zvdmWk/8+ea/zHvSqQXX+pO2UKBWkuDCBMo\nxGI4MZpQRPzQqXWNAGJWDLe73H+82Xjq/hdkYoywWxs0+xFPGkfRM53NiD6R\nzP+F6OHEGd+p4nO9V+oVmCFwFKhg/ZS1oDmKRjv0dIX0s8QDSIRwu9i1jk23\nnxw8ZybuhdxewefAvftZU84/pQKnDDAaAhcz3lz2Y1ViidZR/IWuwvNhbGUi\nU+xRd+R9mQMK+AF/W2W+bdQQY5ceLlgQYG4Tcrn2XimHqJPGp9jitsJj/yUJ\nq52HNdNKTTXqP6uKMZeCEkgu5RLD/4vDrMVT1yvd8WWLAID33ZrpmJgGrjCn\npoH7IGP6a8Js0C+JSGsphYdqnjZXLJrd4Nt+Mvw6GjER6Hdktd73abpi5Cpu\nLbTAa+XXe0AGM6IcHRFO7OHZXBzibVD3dxiBH8k2kZ11wqJwAh6JgQrv1u4A\nYSAz\r\n=Ji6W\r\n-----END PGP SIGNATURE-----\r\n",
+    "shasum": "634a98d195da585d0239de030784b91986ff8bc6",
+    "tarball": "https://registry.npmjs.org/gitbook-plugin-mygitalk/-/gitbook-plugin-mygitalk-0.1.5.tgz",
+    "unpackedSize": 20705
+  },
+  "engines": {
+    "gitbook": ">=2.4.3"
+  },
+  "gitHead": "4322e4941a033efbc9393b11f230c1c807e46909",
+  "gitbook": {
+    "properties": {
+      "admin": {
+        "description": "GitHub repository owner and collaborators. (Users who having write access to this repository).",
+        "required": true,
+        "type": "array"
+      },
+      "body": {
+        "description": "GitHub issue body.",
+        "type": "string"
+      },
+      "clientID": {
+        "description": "GitHub Application Client ID.",
+        "required": true,
+        "type": "string"
+      },
+      "clientSecret": {
+        "description": "GitHub Application Client Secret.",
+        "required": true,
+        "type": "string"
+      },
+      "createIssueManually": {
+        "default": false,
+        "description": "By default, Gitalk will create a corresponding github issue for your every single page automatically when the logined user is belong to the admin users. You can create it manually by setting this option to true.",
+        "type": "boolean"
+      },
+      "distractionFreeMode": {
+        "default": false,
+        "description": "Facebook-like distraction free mode.",
+        "type": "boolean"
+      },
+      "enableHotKey": {
+        "default": true,
+        "description": "Enable hot key (cmd|ctrl + enter) submit comment.",
+        "type": "boolean"
+      },
+      "flipMoveOptions": {
+        "description": "Comment list animation. Reference",
+        "type": "object"
+      },
+      "id": {
+        "description": "location.href.The unique id of the page. Length must less than 50.",
+        "type": "string"
+      },
+      "labels": {
+        "default": [
+          "Gitalk"
+        ],
+        "description": "GitHub issue labels.",
+        "type": "array"
+      },
+      "language": {
+        "description": "Localization language key, en, zh-CN and zh-TW are currently available.",
+        "type": "string"
+      },
+      "number": {
+        "default": -1,
+        "description": "The issue ID of the page, if the number attribute is not defined, issue will be located using id.",
+        "type": "number"
+      },
+      "owner": {
+        "description": "GitHub repository owner. Can be personal user or organization.",
+        "required": true,
+        "type": "string"
+      },
+      "pagerDirection": {
+        "default": "last",
+        "description": "Comment sorting direction, available values are last and first.",
+        "type": "string"
+      },
+      "perPage": {
+        "default": 10,
+        "description": "Pagination size, with maximum 100.",
+        "type": "number"
+      },
+      "proxy": {
+        "default": "https://cors-anywhere.herokuapp.com/https://github.com/login/oauth/access_token",
+        "description": "GitHub oauth request reverse proxy for CORS. Why need this?",
+        "type": "string"
+      },
+      "repo": {
+        "description": "GitHub repository.",
+        "required": true,
+        "type": "string"
+      },
+      "title": {
+        "description": "GitHub issue title.",
+        "type": "string"
+      }
+    }
+  },
+  "homepage": "https://snowdreams1006.github.io/gitbook-plugin-mygitalk/",
+  "keywords": [
+    "gitbook-plugin-mygitalk",
+    "mygitalk",
+    "gitalk",
+    "gitment",
+    "discuss",
+    "comment",
+    "issues",
+    "github",
+    "gitbook"
+  ],
+  "license": "Apache-2.0",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "email": "snowdreams1006@163.com",
+      "name": "snowdreams1006"
+    }
+  ],
+  "name": "gitbook-plugin-mygitalk",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/snowdreams1006/gitbook-plugin-mygitalk.git"
+  },
+  "version": "0.1.5"
+}

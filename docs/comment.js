@@ -99,6 +99,7 @@ console.log("开始初始化评论...");
   } finally {
 
   }
+  
 })();
 
 function sitemapXmlReader(file) {
