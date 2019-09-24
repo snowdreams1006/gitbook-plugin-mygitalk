@@ -8,6 +8,7 @@ module.exports = {
             "mygitalk.css"
         ],
         js: [
+            "https://my.openwrite.cn/js/readmore.js",
             "https://unpkg.com/gitalk/dist/gitalk.min.js",
             "mygitalk.js"
         ]
