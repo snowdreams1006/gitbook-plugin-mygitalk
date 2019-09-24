@@ -1,0 +1,22 @@
+{% extends template.self %}
+
+{% block vip %}
+<div id="vip-container">
+{{ page.content|safe }}
+</div>
+{% endblock %}
+
+{% block javascript %}
+    {{ super() }}
+    <script src="https://my.openwrite.cn/js/readmore.js" type="text/javascript"></script>
+    <script>
+const btw = new BTWPlugin();
+btw.init({
+    id: 'vip-container',
+    blogId: config.pluginsConfig.mygitalk.blogId,
+    name: config.pluginsConfig.mygitalk.name,
+    qrcode: config.pluginsConfig.mygitalk.qrcode,
+    keyword: config.pluginsConfig.mygitalk.keyword,
+});
+    </script>
+{% endblock %}

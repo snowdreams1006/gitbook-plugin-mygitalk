@@ -14,9 +14,13 @@ module.exports = {
     },
     hooks: {
         "init": function() {
+            this.log.debug.ln('init', this.options.pluginsConfig.mygitalk);
+
             mygitalkConfig = this.options.pluginsConfig["mygitalk"];
         },
         "page:before": function(page) {
+            this.log.debug.ln('page:before', page.path);
+
             if (mygitalkConfig) {
                 var str = '<div id="gitalk-container" class="gitbook-plugin-mygitalk"></div>';
 
@@ -24,6 +28,15 @@ module.exports = {
             }
 
             return page;
+        }
+    },
+    blocks: {
+        vip: {
+            process: function(block) {
+                this.log.debug.ln('process', block.body);
+
+                return "**VIP**" + block.body;
+            }
         }
     }
 };

@@ -1,13 +1,33 @@
 {
   "name": "gitbook-plugin-mygitalk",
   "main": "index.js",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "mygitalk is a gitbook comment plugin based on gitalk",
   "engines": {
     "gitbook": ">=2.4.3"
   },
   "gitbook": {
     "properties": {
+      "blogId": {
+        "type": "string",
+        "required": true,
+        "description": "Openwrite blogId."
+      },
+      "name": {
+        "type": "string",
+        "required": true,
+        "description": "Blog name."
+      },
+      "qrcode": {
+        "type": "string",
+        "required": true,
+        "description": "Wechat qrcode."
+      },
+      "keyword": {
+        "type": "string",
+        "required": true,
+        "description": "Wechat keyword."
+      },
       "clientID": {
         "type": "string",
         "required": true,
@@ -40,7 +60,9 @@
       },
       "labels": {
         "type": "array",
-        "default": ["Gitalk"],
+        "default": [
+          "Gitalk"
+        ],
         "description": "GitHub issue labels."
       },
       "title": {
