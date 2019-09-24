@@ -16,14 +16,5 @@ require([
 
         const gitalk = new Gitalk(mygitalk);
         gitalk.render("gitalk-container");
-
-        const btw = new BTWPlugin();
-        btw.init({
-            id: 'vip-container',
-            blogId: mygitalk.blogId,
-            name: mygitalk.name,
-            qrcode: mygitalk.qrcode,
-            keyword: mygitalk.keyword
-        });
     }
 });

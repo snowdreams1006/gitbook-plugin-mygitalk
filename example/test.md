@@ -15,8 +15,6 @@
 
 在您博客的文章页面的末尾，增加如下js代码。
 
-{% vip %}
-
 ```js                        
 <script src="https://my.openwrite.cn/js/readmore.js" type="text/javascript"></script>
 <script>
@@ -30,7 +28,5 @@
     });
 </script>
 ```
-
-{% endvip %}
 
 其中id中设置的container需要用户根据文章页面中的文章容器来调整，或者直接将文章最外面的容器设置为该id。

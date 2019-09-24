@@ -19,24 +19,15 @@ module.exports = {
             mygitalkConfig = this.options.pluginsConfig["mygitalk"];
         },
         "page:before": function(page) {
-            this.log.debug.ln('page:before', page.path);
+            this.log.debug.ln('page:before', page.content);
 
             if (mygitalkConfig) {
                 var str = '<div id="gitalk-container" class="gitbook-plugin-mygitalk"></div>';
 
-                page.content = page.content + str;
+                page.content = page.content + '\n' + str;
             }
 
             return page;
-        }
-    },
-    blocks: {
-        vip: {
-            process: function(block) {
-                this.log.debug.ln('process', block.body);
-
-                return "**VIP**" + block.body;
-            }
         }
     }
 };
