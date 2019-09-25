@@ -7,12 +7,8 @@
     ],
     "pluginsConfig":{
         "mygitalk":{
-            "blogId": "15702-1569305559839-744",
-            "name": "雪之梦技术驿站",
-            "qrcode": "https://snowdreams1006.github.io/snowdreams1006-wechat-public.jpeg",
-            "keyword": "vip",
-            "clientID": "21f570632b0be1a7f0eb",
-            "clientSecret": "8a94b375c5d05d672393201c28d479a6f9f5a538",
+            "clientID": "21f570ghhb0be1a7f0eb",
+            "clientSecret": "8a94b3672op87shtg393201c28d479a6f9f5a538",
             "repo": "gitbook-plugin-mygitalk",
             "owner": "snowdreams1006",
             "admin": ["snowdreams1006"],

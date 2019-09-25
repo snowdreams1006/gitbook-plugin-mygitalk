@@ -1,11 +1,5 @@
 # Introduction
 
-[![npm version](https://img.shields.io/npm/v/gitbook-plugin-mygitalk.svg)](https://www.npmjs.com/package/gitbook-plugin-mygitalk)
-[![npm-download](https://img.shields.io/npm/dt/gitbook-plugin-mygitalk.svg)](https://www.npmjs.com/package/gitbook-plugin-mygitalk)
-[![npm-license](https://img.shields.io/npm/l/gitbook-plugin-mygitalk.svg)](https://www.npmjs.com/package/gitbook-plugin-mygitalk)
-[![star this repo](http://githubbadges.com/star.svg?user=snowdreams1006&repo=gitbook-plugin-mygitalk&style=default)](https://github.com/snowdreams1006/gitbook-plugin-mygitalk)
-[![fork this repo](http://githubbadges.com/fork.svg?user=snowdreams1006&repo=gitbook-plugin-mygitalk&style=default)](https://github.com/snowdreams1006/gitbook-plugin-mygitalk/fork)
-
 `Mygitalk` is a **gitbook comment plugin** based on `gitalk`.
 
 If you want to know the story behind `mygitalk`, please visit [gitbook-plugin-mygitalk](https://snowdreams1006.github.io/gitbook-plugin-mygitalk/).
@@ -19,6 +13,7 @@ If you want to know the story behind `mygitalk`, please visit [gitbook-plugin-my
 - Both personal and organization github projects can be used to store comments 
 - Localization, support multiple languages [en, zh-CN, zh-TW, es-ES, fr, ru]
 - Facebook-like distraction free mode (Can be enabled via the `distractionFreeMode` option)
+<<<<<<< HEAD
 - Hotkey submit comment (cmd|ctrl + enter)
 
 ## Usage
@@ -91,3 +86,6 @@ You can email [me](mailto:snowdreams1006@163.com) or [new issue](https://github.
 ## License
 
 `gitbook-plugin-mygitalk` is licensed under `Apache-2.0` License. See [LICENSE](LICENSE) for the full license text.    
+=======
+- Hotkey submit comment (cmd|ctrl + enter)
+>>>>>>> 4a463b206b2d75f7bcf228a6d6473762ea1f6ad5

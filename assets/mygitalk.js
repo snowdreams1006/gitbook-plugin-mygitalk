@@ -12,10 +12,11 @@ require([
     gitbook.events.bind("page.change", initMygitalk);
 
     function initMygitalk() {
-        mygitalk["id"] = window.location.pathname;
+        mygitalk.id = window.location.pathname;
 
         const gitalk = new Gitalk(mygitalk);
         gitalk.render("gitalk-container");
+<<<<<<< HEAD
 
         // const btw = new BTWPlugin();
         // btw.init({
@@ -25,5 +26,7 @@ require([
         //     qrcode: mygitalk.qrcode,
         //     keyword: mygitalk.keyword
         // });
+=======
+>>>>>>> 4a463b206b2d75f7bcf228a6d6473762ea1f6ad5
     }
 });
