@@ -27,14 +27,6 @@ module.exports = {
                 page.content = page.content + '\n' + str;
             }
 
-            if (page.content) {
-                var lines = page.content.split('\n');
-                var nonvipContainer = lines[0].concat(lines.length / 2);;
-                var vipContainer = lines[lines.length / 2].concat(lines.length - 1);;
-                vipContainer = '<div id="vip-container">' + vipContainer + '</div>';
-                page.content = nonvipContainer + vipContainer;
-            }
-
             return page;
         }
     }
