@@ -6,4 +6,3 @@
     * [why name mygitalk](use/mygitalk-name.md)
     * [story about mygitalk](use/mygitalk-story.md)
 * [how to dev](dev/README.md)
-
