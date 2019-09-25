@@ -11,7 +11,6 @@
                         
 <a href="https://my.openwrite.cn/code/generate?blogId=15702-1569305559839-744">点击该链接，获取博客解锁验证码</a>
 
-                    
 第二步：博客设置
 
 在您博客的文章页面的末尾，增加如下js代码。
@@ -21,7 +20,7 @@
 <script>
     const btw = new BTWPlugin();
     btw.init({
-        id: 'gitalk-container',
+        id: 'vip-container',
         blogId: '15702-1569305559839-744',
         name: '雪之梦技术驿站',
         qrcode: 'https://snowdreams1006.github.io/snowdreams1006-wechat-public.jpeg',

@@ -60,7 +60,9 @@
       },
       "labels": {
         "type": "array",
-        "default": ["Gitalk"],
+        "default": [
+          "Gitalk"
+        ],
         "description": "GitHub issue labels."
       },
       "title": {

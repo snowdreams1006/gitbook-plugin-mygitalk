@@ -90,16 +90,4 @@ You can email [me](mailto:snowdreams1006@163.com) or [new issue](https://github.
 
 ## License
 
-`gitbook-plugin-mygitalk` is licensed under `Apache-2.0` License. See [LICENSE](LICENSE) for the full license text.
-
-<script src="https://my.openwrite.cn/js/readmore.js" type="text/javascript"></script>
-<script>
-    const btw = new BTWPlugin();
-    btw.init({
-        id: 'gitalk-container',
-        blogId: '15702-1569305559839-744',
-        name: '雪之梦技术驿站',
-        qrcode: 'https://snowdreams1006.github.io/snowdreams1006-wechat-public.jpeg',
-        keyword: 'vip',
-    });
-</script>
+`gitbook-plugin-mygitalk` is licensed under `Apache-2.0` License. See [LICENSE](LICENSE) for the full license text.    
