@@ -1,5 +1,6 @@
 require([
-    "gitbook"
+    "gitbook",
+    "jQuery"
 ], function(gitbook, $) {
     var mygitalk = {};
 
@@ -14,7 +15,7 @@ require([
     function initMygitalk() {
         mygitalk.id = window.location.pathname;
 
-        const gitalk = new Gitalk(mygitalk);
+        var gitalk = new Gitalk(mygitalk);
         gitalk.render("gitalk-container");
     }
 });

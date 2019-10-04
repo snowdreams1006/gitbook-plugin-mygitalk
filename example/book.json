@@ -1,7 +1,7 @@
 {
     "title": "mygitalk简单示例",
     "author": "snowdreams1006",
-    "description": "mygitalk简单示例",
+    "description": "gitbook-plugin-mygitalk简单示例",
     "plugins": [
         "mygitalk"
     ],
