@@ -5,7 +5,6 @@ module.exports = {
         assets: "./assets",
         css: [
             "https://unpkg.com/gitalk/dist/gitalk.css",
-            "mygitalk.css"
         ],
         js: [
             "https://unpkg.com/gitalk/dist/gitalk.min.js",
@@ -22,7 +21,7 @@ module.exports = {
             this.log.debug.ln('page:before', page.content);
 
             if (mygitalkConfig) {
-                var str = '<div id="gitalk-container" class="gitbook-plugin-mygitalk"></div>';
+                var str = '<div id="gitalk-container"></div>';
 
                 page.content = page.content + '\n' + str;
             }
