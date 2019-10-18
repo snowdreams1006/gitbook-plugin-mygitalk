@@ -7,6 +7,7 @@ module.exports = {
             "https://unpkg.com/gitalk/dist/gitalk.css",
         ],
         js: [
+            "https://cdn.bootcss.com/blueimp-md5/2.12.0/js/md5.min.js",
             "https://unpkg.com/gitalk/dist/gitalk.min.js",
             "mygitalk.js"
         ]

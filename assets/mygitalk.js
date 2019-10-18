@@ -13,7 +13,7 @@ require([
     gitbook.events.bind("page.change", initMygitalk);
 
     function initMygitalk() {
-        mygitalk.id = window.location.pathname;
+        mygitalk.id = md5(location.pathname);
 
         var gitalk = new Gitalk(mygitalk);
         gitalk.render("gitalk-container");
