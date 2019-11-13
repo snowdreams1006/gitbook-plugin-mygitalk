@@ -12,6 +12,12 @@ If you want to know the story behind `mygitalk`, please visit [gitbook-plugin-my
 
 ![mygitalk-use-preview.png](https://github.com/snowdreams1006/gitbook-plugin-mygitalk/raw/master/docs/images/mygitalk-use-preview.png)
 
+## Homepage
+
+- Github : [https://snowdreams1006.github.io/gitbook-plugin-mygitalk/](https://snowdreams1006.github.io/gitbook-plugin-mygitalk/)
+- Gitee : [https://snowdreams1006.gitee.io/gitbook-plugin-mygitalk/](https://snowdreams1006.gitee.io/gitbook-plugin-mygitalk/)
+- Gitlab : [https://snowdreams1006.gitlab.io/gitbook-plugin-mygitalk/](https://snowdreams1006.gitlab.io/gitbook-plugin-mygitalk/)
+
 ## Feature
 
 - Authentication with github account
