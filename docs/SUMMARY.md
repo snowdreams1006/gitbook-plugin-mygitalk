@@ -1,11 +1,6 @@
 # Summary
 
 * [Introduction](README.md)
-* [how to use](use/README.md)
-    * [what is gitalk](use/gitalk-info.md)
-    * [why name mygitalk](use/mygitalk-name.md)
-    * [story about mygitalk](use/mygitalk-story.md)
-* [how to dev](dev/README.md)
 * [gitbook 官方文档](https://snowdreams1006.github.io/gitbook-official/)
 * [gitbook 留言评论](https://snowdreams1006.github.io/gitbook-plugin-mygitalk/)
 * [gitbook 阅读更多](https://snowdreams1006.github.io/gitbook-plugin-readmore/)

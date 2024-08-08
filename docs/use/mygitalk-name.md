@@ -1,2 +1,0 @@
-# why name mygitalk
-

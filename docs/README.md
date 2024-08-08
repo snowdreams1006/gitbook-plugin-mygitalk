@@ -10,7 +10,7 @@
 
 If you want to know the story behind `mygitalk`, please visit [gitbook-plugin-mygitalk](https://snowdreams1006.github.io/gitbook-plugin-mygitalk/).
 
-![mygitalk-use-preview.png](https://github.com/snowdreams1006/gitbook-plugin-mygitalk/images/mygitalk-use-preview.png)
+![mygitalk-use-preview.png](https://github.com/snowdreams1006/gitbook-plugin-mygitalk/raw/master/docs/images/mygitalk-use-preview.png)
 
 ## Homepage
 
