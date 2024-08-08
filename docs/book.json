@@ -1,8 +1,8 @@
 {
-    "title": "gitbook-plugin-mygitalk",
+    "title": "mygitalk 插件官方文档",
     "author": "snowdreams1006",
-    "description": "gitbook-plugin-mygitalk官方文档",
-    "language": "en",
+    "description": "gitbook-plugin-mygitalk 插件官方文档",
+    "language": "zh-hans",
     "gitbook": "3.2.3",
     "links": {
         "sidebar": {
@@ -10,32 +10,35 @@
         }
     },
     "plugins": [
-        "favicon-custom",
-        "github-buttons",
-        "edit-link",
-        "openwrite",
+        "last-update-time",
+        "favicon-absolute",
+        "readmore",
         "copyright",
         "mygitalk"
     ],
     "pluginsConfig": {
-        "favicon": "favicon.ico",
-        "appleTouchIconPrecomposed152": "apple-touch-icon-precomposed-152.png",
-        "github-buttons": {
-            "buttons": [{
-                "user": "snowdreams1006",
-                "repo": "gitbook-plugin-mygitalk",
-                "type": "star",
-                "size": "small"
-            }]
+        "last-update-time": {
+            "label": "最后更新时间: ",
+            "format": "YYYY-MM-DD HH:mm:ss"
         },
-        "edit-link": {
-            "base": "https://github.com/snowdreams1006/gitbook-plugin-mygitalk/blob/master",
-            "label": "Edit This Page"
+        "favicon-absolute": {
+            "favicon": "/favicon.ico",
+            "bookmark": "/bookmark.ico",
+            "appleTouchIcon152": "/apple-touch-icon-152.png",
+            "appleTouchIconPrecomposed152": "/apple-touch-icon-precomposed-152.png",
+            "appleTouchIconMore": {
+                "120x120": "/apple-touch-icon-120.png",
+                "180x180": "/apple-touch-icon-180.png"
+            },
+            "appleTouchIconPrecomposedMore": {
+                "120x120": "/apple-touch-icon-precomposed-120.png",
+                "180x180": "/apple-touch-icon-precomposed-180.png"
+            }
         },
-        "openwrite": {
+        "readmore": {
             "blogId": "15702-1569305559839-744",
             "name": "雪之梦技术驿站",
-            "qrcode": "https://snowdreams1006.github.io/snowdreams1006-wechat-public.jpeg",
+            "qrcode": "/snowdreams1006-wechat-public.jpeg",
             "keyword": "vip"
         },
         "copyright": {
