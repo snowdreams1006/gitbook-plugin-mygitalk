@@ -10,8 +10,6 @@
 
 If you want to know the story behind `mygitalk`, please visit [gitbook-plugin-mygitalk](https://snowdreams1006.github.io/gitbook-plugin-mygitalk/).
 
-![mygitalk-use-preview.png](https://snowdreams1006.github.io/gitbook-plugin-mygitalk/mygitalk-use-preview.png)
-
 ## Feature
 
 - Authentication with github account
