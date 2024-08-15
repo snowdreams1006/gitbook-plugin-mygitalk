@@ -12,8 +12,9 @@
     "plugins": [
         "last-update-time",
         "favicon-absolute",
-        "readmore",
+        "copy-code-button",
         "copyright",
+        "icp",
         "mygitalk"
     ],
     "pluginsConfig": {
@@ -46,6 +47,11 @@
             "author": "雪之梦技术驿站",
             "website": "雪之梦技术驿站",
             "image": "https://snowdreams1006.github.io/snowdreams1006-wechat-open.png"
+        },
+        "icp": {
+            "label": "&copy snowdreams1006 版权所有",
+            "number": "浙ICP备18042346号",
+            "link": "https://beian.miit.gov.cn/"
         },
         "mygitalk": {
             "clientID": "3f62415a283d19cbd696",

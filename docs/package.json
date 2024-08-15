@@ -1,7 +1,9 @@
 {
   "dependencies": {
+    "gitbook-plugin-copy-code-button": "^0.0.2",
     "gitbook-plugin-copyright": "^0.4.1",
     "gitbook-plugin-favicon-absolute": "^0.1.1",
+    "gitbook-plugin-icp": "^0.2.1",
     "gitbook-plugin-last-update-time": "^1.1.5",
     "gitbook-plugin-mygitalk": "^0.2.6",
     "gitbook-plugin-readmore": "^1.3.1"

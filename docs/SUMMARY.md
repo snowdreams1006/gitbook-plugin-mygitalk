@@ -1,7 +1,6 @@
 # Summary
 
 * [Introduction](README.md)
-* [gitbook 官方文档](https://snowdreams1006.github.io/gitbook-official/)
 * [gitbook 留言评论](https://snowdreams1006.github.io/gitbook-plugin-mygitalk/)
 * [gitbook 阅读更多](https://snowdreams1006.github.io/gitbook-plugin-readmore/)
 * [gitbook 版权保护](https://snowdreams1006.github.io/gitbook-plugin-copyright/)
@@ -11,7 +10,6 @@
 * [gitbook 标题icon](https://snowdreams1006.github.io/gitbook-plugin-favicon-absolute/)
 * [gitbook 编辑此页](https://snowdreams1006.github.io/gitbook-plugin-edit-link-plus/)
 * [gitbook 多语言](https://snowdreams1006.github.io/gitbook-plugin-multilingual-index/)
-* [gitbook 思维导图](https://snowdreams1006.github.io/gitbook-plugin-simple-mind-map/)
 * [gitbook 中文符号转换器](https://snowdreams1006.github.io/gitbook-plugin-punctuation-converter/)
 * [gitbook 百度多渠道统计](https://snowdreams1006.github.io/gitbook-plugin-baidu-tongji-with-multiple-channel/)
 * [gitbook 谷歌多渠道统计](https://snowdreams1006.github.io/gitbook-plugin-google-tongji-with-multiple-channel/)
