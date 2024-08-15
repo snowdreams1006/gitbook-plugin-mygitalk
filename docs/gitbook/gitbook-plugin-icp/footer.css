@@ -1,0 +1,16 @@
+.page-footer {
+    margin-top: 50px;
+    border-top: 1px solid #ccc;
+    overflow: hidden;
+    padding: 10px 0;
+    font-size: 12px;
+    color: #808080;
+    text-align: center;
+    line-height: 30px;
+    font-size: 14px;
+    color: #73777a;
+}
+.page-footer a {
+  color: #808080!important;
+  text-decoration: underline!important;
+}
